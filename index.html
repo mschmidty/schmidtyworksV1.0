@@ -2,22 +2,52 @@
 layout: default
 ---
 
-<div class="home">
-
-  <h1 class="page-heading">Posts</h1>
-
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
-</div>
+<div class="module">
+      <a href="#" class="heading-link"><h1>Wildlife</h1></a>
+      <div class="background-change">
+      <svg viewBox="0 0 150 150">
+      	<use xlink:href="#icon-hummingbird"></use>
+      </svg>
+      </div>
+      <h2>I'm a Wildlife Technician</h2>
+      <p>
+      By profession, I'm a Wildlife Technician Crew Leader, working on the San Juan National Forest, in Dolores, Colorado. I LOVE MY JOB! I have one of those amazing jobs that allows me to spend about half of my time working outside and half my time at a desk. And yes, as a sudo-supervisor (you notice it's not in my title, hence the sudo) for the government, I fill out a butt load of paperwork. But its worth it, because I get to manage some of the most beautiful lands in the United States.   
+      </p>
+      
+      <h2>
+        NEPA
+      </h2>
+      <p>I'm currently learning how to write National Environmental Policy Act (NEPA) documents.  I want to document and share everything I learn, hopefully creating a resource that will allow others to critique my work and learn from the mistakes and sucesses I've had. My dream is to turn one day spin this section off into it's own website, providing a resource to those that have to tackle this very strange and complicted process. </p>
+      
+      <h2>The Field</h2>
+      <p>
+      I'm very lucky to have spent an amazing amount of time in the field.  Over the last six years most of my life has been living in the outdoors. I would like to share some of the experiences that I have had during this time. 
+      </p>
+    </div>
+    
+   
+    <div class="module">
+      <a href="#" class="heading-link"><h1>The Web</h1></a>
+      <div class="background-change">
+      <svg viewBox="0 0 100 100">
+      	<use xlink:href="#icon-computer"></use>
+      </svg>
+      </svg>
+      </div>
+      <h2>My Hobby</h2>
+      <p>Over the past two years I have been slowly learning how to develope websites from scratch.  I LOVE MY HOBBY! Even though I can only spend about two days a month doing it, I don't think I will ever stop. Web develpment gives me a creative outlet that working for the Government does not.  With time and patients, the web allows you to make anything.  </p>
+      
+      <h2>A side Job</h2>
+      <p>I have been lucky enough to turn my hobby into income.  Although my first jobs were not very professional (making mistakes is the best way to learn) I have slowly gotten better.  My most recent project with Durango Shade Company, has helped a good friend of mine start a succesful business.</p>
+    </div>
+    <div class="module">
+      <h1>About</h1>
+      <div class="background-change">
+      <svg viewBox="0 0 15 15.325">
+      	<use xlink:href="#icon-mountain"></use>
+      </svg>
+      </div>
+      <h2>I live in a Barn</h2>
+      <p>The funny thing is I have one sister, she is my only sibling, and we both live in barns. Who would have guessed two kids from Salt Lake City would fid homes in some of the most rural areas in the US.  I wouldn't have told you so</p>
+    </div>
+  </main>

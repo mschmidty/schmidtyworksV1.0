@@ -2,18 +2,22 @@
 <html>
 
   {% include head.html %}
-
   <body>
 
-    {% include header.html %}
-
+    {% include svg-defs.svg %}
     <div class="page-content">
-      <div class="wrapper">
+      <div class="page-wrap" id="page">
+
+      {% include header.html %}
+      <main id="content">
+    
         {{ content }}
+      </main>
+      
+
+        {% include footer.html %}
       </div>
     </div>
-
-    {% include footer.html %}
 
   </body>
 

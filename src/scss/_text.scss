@@ -1,0 +1,25 @@
+@font-face {
+  font-family: 'g_bookletter';
+  src: url('font/g_bookletter.eot?') format('eot'), url('font/g_bookletter.woff') format('woff'), url('font/g_bookletter.ttf') format('truetype');
+}
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700);
+
+$h-font:  'g_bookletter', Georgia, Times, "Times New Roman", serif;
+$b-font: 'Open Sans', sans-serif;
+
+
+h1 {
+  font-size:2.5rem;
+  text-transform:uppercase;
+}
+
+h2 {
+  transition: font-size 0.4s ease;
+  margin: 1em 0;
+}
+
+p {
+	font-family: $b-font;
+	font-size:1.2em;
+	margin-bottom:1em;
+}

@@ -10,8 +10,6 @@ var imagemin = require('gulp-imagemin');
 var concat = require('gulp-concat');
 var	livereload = require('gulp-livereload');
 var	rename = require("gulp-rename");
-var	lr = require('tiny-lr');
-var	server = lr();
 
 // Compile Our Sass
 gulp.task('styles', function() {
@@ -22,7 +20,6 @@ gulp.task('styles', function() {
 	    .pipe(rename({suffix: '.min'}))
 	    .pipe(minifycss())
 	    .pipe(gulp.dest('css'))
-	    .pipe(livereload(server))
 });
 
 gulp.task('scripts', function() {
@@ -32,7 +29,6 @@ gulp.task('scripts', function() {
     .pipe(rename({suffix: '.min'}))
     .pipe(uglify())
     .pipe(gulp.dest('js'))
-    .pipe(livereload(server))
 });
 
 gulp.task('images', function() {
@@ -41,22 +37,20 @@ gulp.task('images', function() {
     .pipe(gulp.dest('images'))
 });
 
+
+
 // Watch Files For Changes
 gulp.task('watch', function() {
     gulp.watch('src/scss/*.scss', ['styles']);
     gulp.watch('src/images/*', ['images']);
     gulp.watch('src/scripts/*.js', ['scripts']);
+    
 
-    server.listen(35729, function (err) {
-    if (err) {
-      return console.log(err)
-    };
 
     // Watch tasks go inside inside server.listen()
-
-  });
 
 });
 
 // Default Task
 gulp.task('default', ['styles', 'watch', 'images', 'scripts']);
+

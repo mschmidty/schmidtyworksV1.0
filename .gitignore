@@ -1,1 +1,8 @@
 _site
+
+node_modules
+sass-cache
+**/.sass-cache
+**/.sass-cache/*
+*.scssc
+gulpfile.js
