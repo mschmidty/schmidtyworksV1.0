@@ -433,6 +433,11 @@ body > svg {
   display: none;
 }
 
+svg {
+  height: 100%;
+  width: 100%;
+}
+
 .page-wrap {
   position: relative;
   width: 100%;
@@ -625,9 +630,14 @@ nav a {
 .background-change {
   background: #111111;
   border-radius: 5px;
+  width: 100%;
+  display: block;
+  height: auto;
+  position: relative;
 }
 .background-change svg {
   fill: #5fb044;
+  max-height: 100%;
 }
 .background-change svg:hover {
   fill: #9ed38c;
