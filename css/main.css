@@ -615,7 +615,7 @@ nav a {
 }
 @media all and (max-width: 470px) {
   header h1 {
-    font-size: 1.5em;
+    font-size: 1.25rem;
   }
 
   .logo-text {
@@ -623,7 +623,7 @@ nav a {
   }
 
   .logo svg {
-    height: 91px;
+    height: 83px;
   }
 
   nav ul {
