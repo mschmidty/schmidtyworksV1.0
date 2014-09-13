@@ -451,6 +451,7 @@ svg {
 
 header {
   border-bottom: 2px solid #333;
+  position: relative;
 }
 
 .logo {
@@ -465,7 +466,7 @@ header {
   width: 100%;
 }
 
-.logo-text {
+.logo-text, .logo-text-small {
   padding: 1.25rem 0;
 }
 
@@ -488,11 +489,7 @@ nav a {
   display: block;
 }
 
-.nav-header {
-  display: none;
-}
-
-.menu-icon {
+.menu-icon, .nav-header {
   display: none;
 }
 
@@ -615,15 +612,25 @@ nav a {
 }
 @media all and (max-width: 470px) {
   header h1 {
-    font-size: 1.25rem;
+    font-size: 1.5rem;
   }
 
   .logo-text {
+    display: none;
     padding-top: 1.65rem;
   }
 
+  .logo {
+    float: none;
+    position: relative;
+    margin: 0 auto;
+    text-align: center;
+  }
+
   .logo svg {
+    position: relative;
     height: 83px;
+    margin: 0 auto;
   }
 
   nav ul {
