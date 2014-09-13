@@ -82,4 +82,19 @@ footer {
     margin:0 .5rem;
   } 
 }
+.banner-image {
+  position:relative;
+  width:100%;
+  top:0;
+  img {
+    width:100%;
+    position:relative;
+    top:0;
+  }
+}
+
+picture {
+  position:relative;
+  width:100%;
+}
 

@@ -438,6 +438,12 @@ svg {
   width: 100%;
 }
 
+.page-content {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+}
+
 .page-wrap {
   position: relative;
   width: 100%;
@@ -479,6 +485,11 @@ nav a {
   padding: .5rem;
   color: #333;
   font-weight: 700;
+  display: block;
+}
+
+.nav-header {
+  display: none;
 }
 
 .menu-icon {
@@ -496,6 +507,10 @@ nav a {
   header h1 {
     font-size: 2.2em;
   }
+
+  nav {
+    top: 30px;
+  }
 }
 @media all and (max-width: 770px) {
   nav {
@@ -506,24 +521,31 @@ nav a {
     height: 100%;
     margin: 0;
     padding: 0;
-    background-color: #333333;
+    -webkit-box-shadow: inset -1.5em 0 1.5em -0.75em rgba(0, 0, 0, 0.25);
+            box-shadow: inset -1.5em 0 1.5em -0.75em rgba(0, 0, 0, 0.25);
   }
   nav ul {
-    margin: 114px 0 0 0;
+    margin: 104px 0 0 0;
     padding: 0;
   }
   nav li {
     float: none;
     width: 100%;
     text-align: center;
-    padding: 1rem 1rem;
     border-bottom: 1px solid #888;
+  }
+  nav li a:hover {
+    color: white;
   }
   nav li:first-of-type {
     border-top: 1px solid #888;
   }
-  nav a:first-of-type {
-    color: #9ed38c;
+  nav a {
+    font-size: 1.2rem;
+    padding: 1em;
+  }
+  nav li:hover {
+    background-color: #555555;
   }
 
   .logo {
@@ -543,9 +565,20 @@ nav a {
   }
 
   .close-panel {
+    position: absolute;
+    padding: 0 1em;
+    z-index: 10;
+  }
+
+  .nav-header {
     position: relative;
-    top: .5em;
-    left: 1em;
+    top: 50px;
+  }
+  .nav-header h2 {
+    margin: 0;
+    text-align: center;
+    text-transform: uppercase;
+    z-index: 100;
   }
 
   .nav-logo {
@@ -557,7 +590,7 @@ nav a {
     margin: .25rem 0;
   }
 
-  a.open-panel, a.close-panel {
+  a.open-panel, a.close-panel, .nav-header {
     display: inline;
   }
 
@@ -580,7 +613,7 @@ nav a {
     transition: transform 500ms ease;
   }
 }
-@media all and (max-width: 460px) {
+@media all and (max-width: 470px) {
   header h1 {
     font-size: 1.5em;
   }
@@ -589,8 +622,12 @@ nav a {
     padding-top: 1.65rem;
   }
 
+  .logo svg {
+    height: 91px;
+  }
+
   nav ul {
-    margin: 99px 0 0 0;
+    margin: 87px 0 0 0;
   }
 }
 .module {
@@ -689,4 +726,20 @@ footer a:hover {
 .social-icons li {
   width: 3rem;
   margin: 0 .5rem;
+}
+
+.banner-image {
+  position: relative;
+  width: 100%;
+  top: 0;
+}
+.banner-image img {
+  width: 100%;
+  position: relative;
+  top: 0;
+}
+
+picture {
+  position: relative;
+  width: 100%;
 }

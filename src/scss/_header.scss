@@ -1,8 +1,14 @@
 
+.page-content {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+}
 .page-wrap {
   position:relative;
   width:100%;
 }
+
 header {
 	border-bottom:2px solid #333;
 }
@@ -38,7 +44,11 @@ nav {
     padding:.5rem;
     color:#333;
     font-weight:700;
+    display:block;
   }
+}
+.nav-header {
+  display:none;
 }
 .menu-icon {
     display:none;
@@ -56,7 +66,9 @@ nav {
   		font-size:2.2em;
   	}
   }
-
+  nav {
+    top:30px;
+  }
 }
 
 @media all and(max-width:770px) {
@@ -68,23 +80,29 @@ nav {
     height:100%;
     margin:0;
     padding:0;
-    background-color:$grey;
+    box-shadow: inset -1.5em 0 1.5em -0.75em rgba(0, 0, 0, 0.25);
     ul {
-      margin:114px 0 0 0;
+      margin:104px 0 0 0;
       padding:0;
     }
     li {
       float: none;
       width: 100%;
       text-align: center;
-      padding: 1rem 1rem;
       border-bottom: 1px solid #888;
+      a:hover {
+      color:$white;
+      }
     }
     li:first-of-type {
       border-top: 1px solid #888;
     }
-    a:first-of-type {
-      color:$light-green;
+    a {
+      font-size:1.2rem;
+      padding:1em;
+    }
+    li:hover {
+      background-color:$light-grey;
     }
   }
   .logo {
@@ -103,9 +121,20 @@ nav {
   }
   
   .close-panel {
-    position: relative;
-    top: .5em;
-    left: 1em;
+    position:absolute;
+    padding:0 1em;
+    z-index:10;
+
+  }
+  .nav-header {
+    position:relative;
+    top:50px;
+    h2 {
+      margin:0;
+      text-align:center;
+      text-transform:uppercase;
+      z-index:100;
+    }
   }
   .nav-logo{
       width:100%;
@@ -116,7 +145,7 @@ nav {
         }
     }
   
-  a.open-panel, a.close-panel {
+  a.open-panel, a.close-panel, .nav-header {
     display: inline;
   }
   .openNav #page {
@@ -147,7 +176,7 @@ nav {
   }
 }
 
-@media all and(max-width:460px) {
+@media all and(max-width:470px) {
   header {
     h1 {
       font-size:1.5em;
@@ -156,9 +185,12 @@ nav {
   .logo-text {
   	padding-top:1.65rem;
   }
+  .logo svg {
+    height:91px;
+  }
   nav {
     ul {
-      margin:99px 0 0 0;
+      margin:87px 0 0 0;
     }
   }
 }
