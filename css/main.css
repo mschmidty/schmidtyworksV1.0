@@ -738,7 +738,10 @@ article {
     margin: 1em 2em;
   }
   .module h1 {
-    font-size: 3.9em;
+    font-size: 3em;
+  }
+  .module h2 {
+    font-size: 1.5em;
   }
   .module img {
     width: 100%;
@@ -761,7 +764,7 @@ footer {
   text-align: center;
   width: 100%;
   background: white;
-  padding: 2rem;
+  padding: 1em;
   margin-top: 1.5rem;
 }
 footer ul {
