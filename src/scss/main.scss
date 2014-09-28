@@ -2,8 +2,9 @@
   -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
  }
 @import 'normalize';
-@import 'text';
 @import 'mixins';
+@import 'text';
 @import 'header';
 @import 'content';
 @import 'small';
+@import 'footer';

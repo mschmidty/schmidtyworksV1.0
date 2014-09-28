@@ -1,100 +1,77 @@
-.module {
-  @include rowMachine(1,10%);
-  position:relative;
-  margin:0 auto;
-  border-bottom:2px solid #ddd;
-  text-align:center;
-  padding: 0 10% 1.5rem 10%;
-  svg {
-    width:40%;
-    height:auto;
-    margin:0 auto;
-    transition: fill 0.5s ease;
-  }
-  path {
-    width:100%;
-    height:auto;
-  }
-  p {
-    text-align:left;
-  }
-  h2 {
-    text-align:left;
-  }
-}
-.background-change {
-  background:$black;
-  border-radius:5px;
+$max-width-col-1: 700px;
+
+main {
   width:100%;
   display:block;
-  height:auto;
-  position: relative;
-  svg {
-    fill:$green;
-    max-height:100%;
-  }
-  svg:hover {
-    fill:$light-green;
-  }
+  max-width:$max-width-col-1;
+  margin:1em auto;
 }
-.heading-link {
-  text-decoration:none;
-  color:$black;
+
+article {
+  display:block;
+  margin:0 auto;
 }
-.heading-link:hover {
-  text-decoration:underline;
- 
-}
-.module:last-of-type {
-  border-bottom:none;
-}
-footer {
-  text-align:center;
-  width:100%;
-  background:$black;
-  padding:2rem;
-  ul {
-      padding:0;
-  }
-  li {
-    display:inline-block;
-  }
-  a {
-    text-decoration:none;
-    padding:1rem;
-    color:$white;
-    font-weight:700;
-    transition: color 0.5s ease;
-  }
-  a:hover {
-    color:$green;
-  }
-}
-.social-icons {
-  svg {
-    fill:$green;
-  }
-  ul {
-    display: inline-block;
-  }
-  li {
-    width:3rem;
-    margin:0 .5rem;
-  } 
-}
-.banner-image {
+
+.col-1 {
+ @include rowMachine(1,10%);
   position:relative;
-  width:100%;
-  top:0;
+  display:block;
+  margin:0 auto;
+  text-align:center;
+  padding: 0 2em 1.5rem 2em;
+}
+
+.module {
+  margin:0 auto;
+  h1 {
+    margin: .8em auto;
+  }
+  p {
+    display:block;
+    margin:1.2em auto;
+  }
+  ul {
+    width:90%;
+    margin:0 auto;
+    max-width:650px;
+  }
+  li {
+    text-align:left;
+    margin:1em;
+  }
   img {
+    display:block;
     width:100%;
-    position:relative;
-    top:0;
+    height:auto;
+    margin: 2em auto 0 auto;
   }
 }
 
-picture {
-  position:relative;
-  width:100%;
+@media all and(max-width:650px){
+  .module {
+    padding:0;
+    h2, p {
+      margin: 1em 20px;
+    }
+    p {
+      line-height:1.6em;
+      margin:1em 20px;
+    }
+    ul {
+      width:95%;
+      margin:1em 2em;
+    }
+    h1 {
+      font-size:3.9em;
+    }
+    img {
+      width:100%;
+    }
+  }
 }
+@import '_content-posts';
+@import '_content-additions';
+
+
+
 

@@ -1,4 +1,5 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700);
+@import url(http://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic);
 *, *:before, *:after {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
@@ -398,35 +399,9 @@ th {
   padding: 0;
 }
 
-@font-face {
-  font-family: 'g_bookletter';
-  src: url("font/g_bookletter.eot?") format("eot"), url("font/g_bookletter.woff") format("woff"), url("font/g_bookletter.ttf") format("truetype");
-}
-
-h1 {
-  font-size: 2.5rem;
-  text-transform: uppercase;
-}
-
-h2 {
-  -webkit-transition: font-size 0.4s ease;
-          transition: font-size 0.4s ease;
-  margin: 1em 0;
-}
-
-p {
-  font-family: "Open Sans", sans-serif;
-  font-size: 1.2em;
-  margin-bottom: 1em;
-}
-
 *, *:before, *:after {
   margin: 0;
   padding: 0;
-}
-
-body {
-  font-family: "g_bookletter", Georgia, Times, "Times New Roman", serif;
 }
 
 body > svg {
@@ -438,6 +413,59 @@ svg {
   width: 100%;
 }
 
+@font-face {
+  font-family: 'g_bookletter';
+  src: url("font/g_bookletter.eot?") format("eot"), url("font/g_bookletter.woff") format("woff"), url("font/g_bookletter.ttf") format("truetype");
+}
+
+body {
+  font-family: "g_bookletter", Georgia, Times, "Times New Roman", serif;
+}
+
+h1 {
+  font-size: 5rem;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 2rem;
+  -webkit-transition: font-size 0.4s ease;
+          transition: font-size 0.4s ease;
+  margin: 1em 0;
+  text-align: left;
+}
+
+p {
+  font-family: "Droid Serif", serif;
+  font-size: 1.15em;
+  margin-bottom: 1em;
+  line-height: 1.8em;
+}
+
+.module p {
+  text-align: left;
+}
+.module p a {
+  color: #5fb044;
+  font-size: 1.1em;
+  text-decoration: none;
+}
+.module p a:hover {
+  color: #9ed38c;
+}
+.module h1 {
+  font-size: 5rem;
+}
+.module h1 a {
+  color: #111111;
+  text-decoration: none;
+}
+.module li {
+  font-family: "Droid Serif", serif;
+  font-size: 1em;
+  line-height: 1.5em;
+}
+
 .page-content {
   position: relative;
   overflow: hidden;
@@ -447,10 +475,6 @@ svg {
 .page-wrap {
   position: relative;
   width: 100%;
-}
-
-header {
-  border-bottom: 2px solid #333;
 }
 
 .logo {
@@ -466,6 +490,7 @@ header {
 }
 
 .logo-text, .logo-text-small {
+  font-size: 2.5rem;
   padding: 1.25rem 0;
 }
 
@@ -477,8 +502,13 @@ nav {
 nav .close-panel {
   display: none;
 }
+nav ul {
+  margin-right: 1em;
+}
 nav li {
   display: inline-block;
+  font-size: 1.2em;
+  line-height: 1.2em;
 }
 nav a {
   text-decoration: none;
@@ -548,6 +578,10 @@ nav a {
     margin-left: 50px;
   }
 
+  .logo-text {
+    font-size: 2rem;
+  }
+
   .menu-icon {
     display: block;
     position: absolute;
@@ -610,9 +644,6 @@ nav a {
   }
 }
 @media all and (max-width: 470px) {
-  header h1 {
-    font-size: 1.5rem;
-  }
   header .nav-header h2 {
     font-size: 1.2rem;
   }
@@ -636,85 +667,111 @@ nav a {
     margin: 87px 0 0 0;
   }
 }
-.module {
+main {
+  width: 100%;
+  display: block;
+  max-width: 700px;
+  margin: 1em auto;
+}
+
+article {
+  display: block;
+  margin: 0 auto;
+}
+
+.col-1 {
   width: 100%;
   position: relative;
+  display: block;
   margin: 0 auto;
-  border-bottom: 2px solid #ddd;
   text-align: center;
-  padding: 0 10% 1.5rem 10%;
+  padding: 0 2em 1.5rem 2em;
 }
-.module:nth-child(n) {
+.col-1:nth-child(n) {
   margin-bottom: 10%;
   margin-right: 10%;
 }
-.module:nth-child(1n) {
+.col-1:nth-child(1n) {
   margin-right: 0;
   margin-bottom: 0;
 }
-.module svg {
-  width: 40%;
-  height: auto;
+
+.module {
   margin: 0 auto;
-  -webkit-transition: fill 0.5s ease;
-          transition: fill 0.5s ease;
 }
-.module path {
-  width: 100%;
-  height: auto;
+.module h1 {
+  margin: .8em auto;
 }
 .module p {
-  text-align: left;
-}
-.module h2 {
-  text-align: left;
-}
-
-.background-change {
-  background: #111111;
-  border-radius: 5px;
-  width: 100%;
   display: block;
+  margin: 1.2em auto;
+}
+.module ul {
+  width: 90%;
+  margin: 0 auto;
+  max-width: 650px;
+}
+.module li {
+  text-align: left;
+  margin: 1em;
+}
+.module img {
+  display: block;
+  width: 100%;
   height: auto;
-  position: relative;
-}
-.background-change svg {
-  fill: #5fb044;
-  max-height: 100%;
-}
-.background-change svg:hover {
-  fill: #9ed38c;
+  margin: 2em auto 0 auto;
 }
 
-.heading-link {
-  text-decoration: none;
-  color: #111111;
+@media all and (max-width: 650px) {
+  .module {
+    padding: 0;
+  }
+  .module h2, .module p {
+    margin: 1em 20px;
+  }
+  .module p {
+    line-height: 1.6em;
+    margin: 1em 20px;
+  }
+  .module ul {
+    width: 95%;
+    margin: 1em 2em;
+  }
+  .module h1 {
+    font-size: 3.9em;
+  }
+  .module img {
+    width: 100%;
+  }
 }
-
-.heading-link:hover {
-  text-decoration: underline;
-}
-
-.module:last-of-type {
-  border-bottom: none;
+.module .photo-tag {
+  margin-top: 0;
+  margin-left: 0.3em;
+  margin-right: 0;
+  padding-top: 0;
+  font-size: 0.8em;
+  font-style: italic;
 }
 
 footer {
   text-align: center;
   width: 100%;
-  background: #111111;
+  background: white;
   padding: 2rem;
+  margin-top: 1.5rem;
 }
 footer ul {
   padding: 0;
 }
 footer li {
   display: inline-block;
+  font-size: 1.2em;
+  line-height: 2em;
 }
 footer a {
   text-decoration: none;
   padding: 1rem;
-  color: white;
+  color: #111111;
   font-weight: 700;
   -webkit-transition: color 0.5s ease;
           transition: color 0.5s ease;
@@ -724,7 +781,8 @@ footer a:hover {
 }
 
 .social-icons svg {
-  fill: #5fb044;
+  fill: #333333;
+  float: left;
 }
 .social-icons ul {
   display: inline-block;
@@ -733,19 +791,6 @@ footer a:hover {
   width: 3rem;
   margin: 0 .5rem;
 }
-
-.banner-image {
-  position: relative;
-  width: 100%;
-  top: 0;
-}
-.banner-image img {
-  width: 100%;
-  position: relative;
-  top: 0;
-}
-
-picture {
-  position: relative;
-  width: 100%;
+.social-icons li:last-of-type {
+  margin-right: 0;
 }

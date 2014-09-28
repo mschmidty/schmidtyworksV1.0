@@ -38,9 +38,7 @@ $white:#ffffff;
 $green:rgba(95, 176, 68, 1);
 $light-green:rgba(158, 211, 140, 1);
 
-body {
-  font-family:$h-font;
-}
+$link:$green;
 
 body > svg {
   display:none;

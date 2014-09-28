@@ -1,0 +1,41 @@
+footer {
+  text-align:center;
+  width:100%;
+  background:$white;
+  padding:2rem;
+  margin-top:1.5rem;
+  ul {
+      padding:0;
+  }
+  li {
+    display:inline-block;
+    font-size:1.2em;
+    line-height:2em;
+  }
+  a {
+    text-decoration:none;
+    padding:1rem;
+    color:$black;
+    font-weight:700;
+    transition: color 0.5s ease;
+  }
+  a:hover {
+    color:$green;
+  }
+}
+.social-icons {
+  svg {
+    fill:$grey;
+    float:left;
+  }
+  ul {
+    display: inline-block;
+  }
+  li {
+    width:3rem;
+    margin:0 .5rem;
+  } 
+  li:last-of-type {
+    margin-right:0;
+  }
+}
