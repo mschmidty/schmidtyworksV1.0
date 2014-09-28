@@ -423,12 +423,12 @@ body {
 }
 
 h1 {
-  font-size: 5rem;
+  font-size: 5em;
   text-transform: uppercase;
 }
 
 h2 {
-  font-size: 2rem;
+  font-size: 2em;
   -webkit-transition: font-size 0.4s ease;
           transition: font-size 0.4s ease;
   margin: 1em 0;
@@ -454,7 +454,7 @@ p {
   color: #9ed38c;
 }
 .module h1 {
-  font-size: 5rem;
+  font-size: 5em;
 }
 .module h1 a {
   color: #111111;
@@ -727,11 +727,11 @@ article {
     padding: 0;
   }
   .module h2, .module p {
-    margin: 1em 20px;
+    margin: 1em 1em;
   }
   .module p {
     line-height: 1.6em;
-    margin: 1em 20px;
+    margin: 1em 1em;
   }
   .module ul {
     width: 95%;
@@ -744,6 +744,10 @@ article {
     width: 100%;
   }
 }
+.post-haeder {
+  text-align: center;
+}
+
 .module .photo-tag {
   margin-top: 0;
   margin-left: 0.3em;
