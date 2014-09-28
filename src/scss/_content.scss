@@ -26,6 +26,10 @@ article {
   h1 {
     margin: .8em auto;
   }
+  h2 a {
+    text-decoration:none;
+    color: $link;
+  }
   p {
     display:block;
     margin:1.2em auto;
@@ -51,11 +55,10 @@ article {
   .module {
     padding:0;
     h2, p {
-      margin: 1em 1em;
+      margin: 1rem 1rem;
     }
     p {
       line-height:1.6em;
-      margin:1em 1em;
     }
     ul {
       width:95%;
@@ -74,7 +77,7 @@ article {
 }
 @import '_content-posts';
 @import '_content-additions';
-
+@import '_content-articles';
 
 
 

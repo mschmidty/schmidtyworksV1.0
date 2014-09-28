@@ -571,7 +571,7 @@ nav a {
     padding: 1em;
   }
   nav li:hover {
-    background-color: #555555;
+    background-color: #cccccc;
   }
 
   .logo {
@@ -702,6 +702,10 @@ article {
 .module h1 {
   margin: .8em auto;
 }
+.module h2 a {
+  text-decoration: none;
+  color: #5fb044;
+}
 .module p {
   display: block;
   margin: 1.2em auto;
@@ -727,11 +731,10 @@ article {
     padding: 0;
   }
   .module h2, .module p {
-    margin: 1em 1em;
+    margin: 1rem 1rem;
   }
   .module p {
     line-height: 1.6em;
-    margin: 1em 1em;
   }
   .module ul {
     width: 95%;
@@ -751,6 +754,12 @@ article {
   text-align: center;
 }
 
+.module .post-meta {
+  font-style: italic;
+  margin: 0 0 1.5em 0;
+  text-align: center;
+}
+
 .module .photo-tag {
   margin-top: 0;
   margin-left: 0.3em;
@@ -758,6 +767,13 @@ article {
   padding-top: 0;
   font-size: 0.8em;
   font-style: italic;
+}
+
+.articles-thumb {
+  border-bottom: 2px solid #cccccc;
+}
+.articles-thumb:last-of-type {
+  border: none;
 }
 
 footer {

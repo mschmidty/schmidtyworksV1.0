@@ -1,0 +1,6 @@
+.articles-thumb {
+	border-bottom:2px solid $light-grey;
+	&:last-of-type {
+		border:none;
+	}
+}
