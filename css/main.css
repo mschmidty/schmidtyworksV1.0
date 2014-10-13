@@ -5,6 +5,12 @@
   box-sizing: border-box;
 }
 
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
 /*! normalize.css v3.0.0 | MIT License | git.io/normalize */
 /**
  * 1. Set default font family to sans-serif.
@@ -667,6 +673,11 @@ nav a {
     margin: 87px 0 0 0;
   }
 }
+.left {
+  float: left;
+  text-align: left;
+}
+
 main {
   width: 100%;
   display: block;
@@ -683,7 +694,6 @@ article {
   width: 100%;
   position: relative;
   display: block;
-  margin: 0 auto;
   text-align: center;
   padding: 0 2em 1.5rem 2em;
 }
@@ -710,7 +720,7 @@ article {
   display: block;
   margin: 1.2em auto;
 }
-.module ul {
+.module ul, .module ol {
   width: 90%;
   margin: 0 auto;
   max-width: 650px;
@@ -736,7 +746,7 @@ article {
   .module p {
     line-height: 1.6em;
   }
-  .module ul {
+  .module ul, .module ol {
     width: 95%;
     margin: 1em 2em;
   }
@@ -785,6 +795,8 @@ footer {
 }
 footer ul {
   padding: 0;
+  max-width: 700px;
+  margin: 0 auto;
 }
 footer li {
   display: inline-block;
