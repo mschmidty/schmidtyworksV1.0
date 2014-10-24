@@ -8,3 +8,14 @@
 		text-align:center;
 	}
 }
+
+.excerpt {
+	padding-bottom:2rem;
+	&:first-of-type {
+		padding-top:2rem;
+	}
+}
+.excerpt img {
+	width:90%;
+	height:auto;
+}

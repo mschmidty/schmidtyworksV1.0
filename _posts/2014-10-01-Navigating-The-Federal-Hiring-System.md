@@ -1,18 +1,38 @@
 ---
 layout: post
-title:  "Navigating the Federal Hiring System"
+title:  "The Federal Hiring System"
 date:   2014-10-01
 categories: blog hiring feds USAjobs
 ---
 
-I just applied for a new job with the federal government.  One week after applying for the position I was notified that I was "not referred" to the selecting officials for the position that I applied for with no justification. Fast forward two days later, for the same job, and after several phone calls and emails to human resources, I was referred to the hiring officials as one of the top candidates for the position.  After telling my story to others I was comforted to hear that I was not the only one that was baffled by the system.  Here's what I've learned.
+I just applied for a new job with the federal government.  One week after applying for the position I was notified that I was "not referred" to the selecting officials for the position that I applied for with no justification. Fast forward two days later, for the same job, and after several phone calls and emails to human resources, I was referred to the hiring officials as one of the top candidates for the position.  
 
-##USA Jobs Sucks
+After telling my story to others I was comforted to hear that I was not the only one that was baffled by the system.  The following is a collection of information that will hopefully prevent others from repeating my mistakes. 
 
-For starters I want to make one thing clear.  [USA jobs][usajobs] is terrible, but it's all we have for now.  If you want to be a federal civilian employee, chances are you will have to use it at some point in your career.  So deal with it.
+##Don't Be Afraid to Call Human Resources
+I heard over and over again that folks were having issues with hiring, but very few people had actually called HR.  If I hadn't called HR I would never have been qualified for the job & my application would have been pointless.  The number on the job announcement is a good place to start.  However, don't be afraid to call an HR person that you have worked with day to day.  They can often move you in the right direction. 
+
+##Merit vs DEU
+There are two types of positions on USAjobs that you may apply for, DEU and Merit.  Merit announcements are open to applicants that are either currently working for the federal government in a career conditional or career appointment, or employees with status.  Typically if you are a current permanent federal employee you fall into one of these two categories (your most recent SF-50 should tell you as well). If you do not qualify for the Merit position then you can apply for the DEU position which is open to the the public.  It is very advantageous to qualify for Merit Positions.  When there are enough candidates that have applied for a Merit position, those that have applied for the DEU announcement will not even be considered. Unfortunately, not even a call or email to HR can help you at this point.  
+
+<div class="excerpt silver">
+<h3 class="center underline bold uppercase">Merit</h3>
+
+<img src="{{"images/post-images/hiring-merit.jpg" | prepend:site.baseurl}}" alt="Image of Merit description from USA jobs">
+</div>
+<div class="excerpt silver">
+
+<h3 class="center underline bold uppercase">DEU</h3>
+
+<img src="{{"images/post-images/hiring-deu.jpg" | prepend:site.baseurl}}" alt="Image of DEU description from USA jobs">
+
+</div>
+
+
+
 
 ##The Questionnaire
-The first part of most applications consists of several questions that are supposed to asses how qualified you are for the job that you are applying for. Mine looked something like this:
+After you have chosen which job announcement is right for, the first part of most applications consists of several questions that are supposed to asses how qualified you are for the job that you are applying for. Most of the multiple choice questions give you the option to select from the following:
 
 1. I have no experience in performing this work behavior.
 2. I have limited experience in performing this work behavior. I have had exposure to this work behavior but would require additional guidance, instruction, or experience to perform it at a proficient level.
@@ -37,7 +57,7 @@ Most series have an educational component that you must meet to be referred to h
 
 Once you submit your application an HR person goes through all of the candidates and checks to see which candidates have the correct courses to qualify for a job. In my case, and depending on the HR person, Ecology can count as a plant science (as was the case for me with the Forest Service) or not (as was the case with the BLM).  
 
-I pleaded with HR "I promise you, that class was 2 weeks of plant and 2 weeks of animal research techniques".  You can understand her reluctance to believe me.  I even went as far as to send her the definition of ecology.  But, alas, she would not budge.  
+I pleaded with HR "I promise you, that class was 2 weeks of plant and 2 weeks of animal research techniques".  You can understand their reluctance to believe me.  I even went as far as to send her the definition of ecology.  But, alas, she would not budge.  
 
 **Don't let this happen to you** - I was told that the only way they would accept my course without additional verifiable information, was if the title of the course had "Animal" or "Plant" in the title. To avoid this fiasco, submit additional information with your education in the section that asks for additional attachments at the end of the questionnaire.  For me all I had to do was send them a copy of the course description from my college course catalog and they accepted Ecology as a plant science. I was also told that a signed letter on official letterhead would also work (this would have applied to my research on plants in "Senior Thesis").
 

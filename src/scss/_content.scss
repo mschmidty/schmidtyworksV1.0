@@ -3,6 +3,7 @@ $max-width-col-1: 700px;
 .left {
   float:left;
   text-align:left;
+  @include clearfix;
 }
 
 main {
@@ -55,6 +56,14 @@ article {
   }
 }
 
+.quote {
+  width:85%;
+  background-color:$silver;
+  border-left:7px solid $blue;
+  font-style:italic;
+  padding:1em;
+}
+
 @media all and(max-width:650px){
   .module {
     padding:0;
@@ -78,7 +87,13 @@ article {
       width:100%;
     }
   }
+  .quote {
+    width:100%;
+    margin:0 1rem;
+  }
 }
+
+
 @import '_content-posts';
 @import '_content-additions';
 @import '_content-articles';

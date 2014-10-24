@@ -410,6 +410,26 @@ th {
   padding: 0;
 }
 
+.center {
+  margin: 0 auto;
+}
+
+.scroll {
+  overflow-y: scroll;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
 body > svg {
   display: none;
 }
@@ -417,6 +437,10 @@ body > svg {
 svg {
   height: 100%;
   width: 100%;
+}
+
+.silver {
+  background: #dddddd;
 }
 
 @font-face {
@@ -676,6 +700,16 @@ nav a {
 .left {
   float: left;
   text-align: left;
+  zoom: 1;
+}
+.left:before, .left:after {
+  content: "\0020";
+  display: block;
+  height: 0;
+  overflow: hidden;
+}
+.left:after {
+  clear: both;
 }
 
 main {
@@ -736,6 +770,14 @@ article {
   margin: 2em auto 0 auto;
 }
 
+.quote {
+  width: 85%;
+  background-color: #dddddd;
+  border-left: 7px solid #0074d9;
+  font-style: italic;
+  padding: 1em;
+}
+
 @media all and (max-width: 650px) {
   .module {
     padding: 0;
@@ -759,6 +801,11 @@ article {
   .module img {
     width: 100%;
   }
+
+  .quote {
+    width: 100%;
+    margin: 0 1rem;
+  }
 }
 .post-haeder {
   text-align: center;
@@ -768,6 +815,18 @@ article {
   font-style: italic;
   margin: 0 0 1.5em 0;
   text-align: center;
+}
+
+.excerpt {
+  padding-bottom: 2rem;
+}
+.excerpt:first-of-type {
+  padding-top: 2rem;
+}
+
+.excerpt img {
+  width: 90%;
+  height: auto;
 }
 
 .module .photo-tag {
@@ -792,6 +851,7 @@ footer {
   background: white;
   padding: 1em;
   margin-top: 1.5rem;
+  clear: both;
 }
 footer ul {
   padding: 0;
