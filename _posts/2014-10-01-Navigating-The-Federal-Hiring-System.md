@@ -45,6 +45,19 @@ There are two fields of thought for how to approach these questions (Warning - t
 
 **If there is one experience that you have no experience in, lie** - Yep I said it.  LIE.  I have fought over whether or not I should be promoting dishonesty, and frankly I don't think I should. BUT, in this case I think lying might be warranted. Let's say you make it all the way through the questionnaire and you have been able to confidentially answer most of the questions in the "Work has been a central part of my job" category and on the last question you have zero experience.  If you don't stretch your answer, there is a good chance no one will look at your resume, or transcripts. Automatic disqualification.   The bottom line is, if you are filling out the questionnaire and you are regularly selecting 1 or 2, you are wasting your time.
 
+<div class="img-box-shadow-effect">
+	<picture class="full-width">
+		<!--[if IE 9]><video style="display: none;"><![endif]-->
+		<source srcset="{{"images/post-images/federal_hiring_system/eastern-sierrabig.jpg" | prepend:site.baseurl}}" media="(min-width: 1000px)">
+		<source srcset="{{ "images/post-images/federal_hiring_system/eastern-sierra-medium.jpg" | prepend:site.baseurl}}" media="(min-width: 800px)">
+		<!--[if IE 9]></video><![endif]-->
+		<img srcset="{{"images/post-images/federal_hiring_system/eastern-sierra.jpg" | prepend:site.baseurl}}" alt="Eastern Sierra Mountains, Bishop, California | Photo: Mike Schmidt">
+	</picture>
+</div>
+
+Inyo National Forest in Bishop, California. (Photo: Mike Schmidt)
+{: .photo-tag}
+
 ##Education
 
 When I was notified by USA Jobs that I was not referred, it didn't tell me why. I had assumed that it was because I had not submitted the correct documentation, or not rated high enough compared to the other candidates.  So, and because of habit, I called HR to figure out what "not referred" meant and why I was put in that category. Turns out my application was junked because I was supposedly missing one educational credit in plant biology.

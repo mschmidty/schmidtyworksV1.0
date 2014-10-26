@@ -16,13 +16,16 @@ I have never taken a single class in computer programming or design. What I've l
 ##For Me, Web Development is Just a Hobby 
 
 Building websites is my hobby.  Managing public lands as a biologist is my career.  In biology we don't share much. What we do, is shared in a scientific journal, very long PDF or email.   While these are amazing sources of information, they are hard to read and usually really boring.  My dream is to have a resource where people can go and learn the way that web designers do.  I can't tell you how many times that I have googled something biological and come up with an endless stream of PDFs.  One day I want to google Mexican Spotted Owl Surveys and read a blog post about what issues people ran into and what they've learned instead of a 20 page [PDF][MSOpdf]. We have the internet now.  Make it interactive, responsive and community based. We can do better. 
-<picture>
-	<!--[if IE 9]><video style="display: none;"><![endif]-->
-	<source srcset="{{"images/castletontowerlarge.jpg" | prepend:site.baseurl}}" media="(min-width: 1000px)">
-	<source srcset="{{ "images/castletontowermedium.jpg" | prepend:site.baseurl}}" media="(min-width: 800px)">
-	<!--[if IE 9]></video><![endif]-->
-	<img srcset="{{"images/castletontowersmall.jpg" | prepend:site.baseurl}}" alt="Castleton Tower | Photo: Mike Schmidt">
-</picture>
+
+<div class="img-box-shadow-effect">
+	<picture>
+		<!--[if IE 9]><video style="display: none;"><![endif]-->
+		<source srcset="{{"images/castletontowerlarge.jpg" | prepend:site.baseurl}}" media="(min-width: 1000px)">
+		<source srcset="{{ "images/castletontowermedium.jpg" | prepend:site.baseurl}}" media="(min-width: 800px)">
+		<!--[if IE 9]></video><![endif]-->
+		<img srcset="{{"images/castletontowersmall.jpg" | prepend:site.baseurl}}" alt="Castleton Tower | Photo: Mike Schmidt">
+	</picture>
+</div>
 
  Some of the most beautiful public lands around.  Castleton Tower, Castle Valley, Utah. (Photo: Mike Schmidt)
 {: .photo-tag}

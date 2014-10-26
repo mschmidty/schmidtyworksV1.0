@@ -81,7 +81,7 @@ article {
       font-size:3em;
     }
     h2 {
-      font-size:1.5em;
+      font-size:1.7em;
     }
     img {
       width:100%;
@@ -91,6 +91,34 @@ article {
     width:100%;
     margin:0 1rem;
   }
+}
+
+
+//Box Shadow Effect Added to all Pictures 
+//with <div class="img-box-shadow-effect"></div>
+//on the outside of <picture>
+.img-box-shadow-effect
+{
+    position:relative;
+    box-shadow:0 1px 4px rgba(0, 0, 0, 0.3);
+}
+.img-box-shadow-effect:before, .img-box-shadow-effect:after
+{
+  content:"";
+    position:absolute;
+    z-index:-1;
+    box-shadow:0 0 20px rgba(0,0,0,0.8);
+    top:0;
+    bottom:0;
+    left:10px;
+    right:10px;
+    border-radius:100px / 10px;
+}
+.img-box-shadow-effect:after
+{
+  right:10px;
+  left:auto;
+  transform:skew(8deg) rotate(3deg);
 }
 
 

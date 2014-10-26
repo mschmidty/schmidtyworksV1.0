@@ -1,4 +1,4 @@
-jQuery(document).ready(function($){
+$(document).ready(function($){
 $(".open-panel").click(function(){
   
   $("html").toggleClass("openNav");
