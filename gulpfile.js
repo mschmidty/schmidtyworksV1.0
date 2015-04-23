@@ -42,7 +42,7 @@ gulp.task('images', function() {
 // Watch Files For Changes
 gulp.task('watch', function() {
     gulp.watch('src/scss/*.scss', ['styles']);
-    gulp.watch('src/images/*', ['images']);
+    gulp.watch('src/images/**/*', ['images']);
     gulp.watch('src/scripts/*.js', ['scripts']);
     
 

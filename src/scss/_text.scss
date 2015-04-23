@@ -20,7 +20,7 @@ h2 {
   font-size:2.2em;
   transition: font-size 0.4s ease;
   text-transform:uppercase;
-  margin: 1em 0;
+  margin: 2em 0 1em 0;
   text-align:left;
 }
 h3 {
@@ -36,7 +36,7 @@ p {
 }
 
 .module {
-  p {
+  p, li {
     text-align:left;
 	    a {
 		  	color:$link;

@@ -3,6 +3,7 @@
   padding:0;
  }
 
+
  .center {
   margin: 0 auto;
  }
@@ -49,6 +50,7 @@
   }
 }
 
+
 //Themeed
 
 $black:#111111;
@@ -73,6 +75,10 @@ svg {
 
 .silver {
   background:$silver;
+}
+
+.light-grey {
+  background:$light-grey;
 }
 
 

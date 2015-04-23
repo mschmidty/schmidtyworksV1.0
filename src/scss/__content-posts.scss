@@ -4,7 +4,7 @@
 .module {
 	.post-meta {
 		font-style: italic;
-		margin: 0 0 1.5em 0;
+		margin: 0 auto 1.5em auto;
 		text-align:center;
 	}
 }
@@ -25,4 +25,17 @@
 
 .full-width {
 	min-width:100%;
+}
+.post-image-icon {
+	width: 200px;
+	height:auto;
+	max-width:100%;
+}
+
+.image-border {
+	margin:1rem;
+}
+
+.max-width-700 {
+	max-width:700px;
 }
