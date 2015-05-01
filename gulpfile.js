@@ -2,7 +2,7 @@
 var gulp = require('gulp');
 
 //Include our plugins
-var	sass = require('gulp-ruby-sass');
+var	sass = require('gulp-sass');
 var	autoprefixer = require('gulp-autoprefixer');
 var uglify = require('gulp-uglify');
 var	minifycss = require('gulp-minify-css');
@@ -44,7 +44,7 @@ gulp.task('watch', function() {
     gulp.watch('src/scss/*.scss', ['styles']);
     gulp.watch('src/images/**/*', ['images']);
     gulp.watch('src/scripts/*.js', ['scripts']);
-    
+
 
 
     // Watch tasks go inside inside server.listen()
@@ -53,4 +53,3 @@ gulp.task('watch', function() {
 
 // Default Task
 gulp.task('default', ['styles', 'watch', 'images', 'scripts']);
-
