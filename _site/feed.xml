@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>The Web and Biology | Schmidtyworks</title>
+    <description>My thoughts on land management as a wildlife biologist for the Bereau of Land Management. 
+</description>
+    <link>//</link>
+    <atom:link href="//feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Mon, 11 May 2015 21:26:12 -0600</pubDate>
+    <lastBuildDate>Mon, 11 May 2015 21:26:12 -0600</lastBuildDate>
+    <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>NEPA</title>
+        <description>&lt;p&gt;If you are a federal land manager, the holy grail of all statutes is the &lt;a href=&quot;http://en.wikipedia.org/wiki/National_Environmental_Policy_Act&quot;&gt;National Environmental Policy Act of 1970&lt;/a&gt;, or NEPA, as most of us like to call it. So what exactly is NEPA and why is everyone always talking about it? I wish I knew….&lt;/p&gt;
+
+&lt;h2 id=&quot;history&quot;&gt;History&lt;/h2&gt;
+
+&lt;p&gt;In the early 1960s, due to several environmental catastrophes, the United States public started to pressure the federal government to pass legislation that protected the environment.  Over the next decade and a half several environmental statues were passed: Clean Air Act, Clean Water Act, Endangered Species Act and the National Environmental Policy Act, NEPA.  NEPA was enacted to help federally funded projects consider not just projects cost, efficiency, and development, but projects effects to the environment as well. The preamble lays out NEPA’s purpose nicely:&lt;/p&gt;
+
+&lt;p class=&quot;quote&quot;&gt;“To declare national policy which will encourage productive and enjoyable harmony between man and his environment; to promote efforts which will prevent or eliminate damage to the environment and biosphere and stimulate the health and welfare of man; to enrich the understanding of the ecological systems and natural resources important to the Nation…”&lt;/p&gt;
+
+&lt;p&gt;tldr: NEPA helps us prevent environmental damage.&lt;/p&gt;
+
+&lt;h2 id=&quot;what-is-nepa&quot;&gt;What is NEPA?&lt;/h2&gt;
+
+&lt;p&gt;Whenever a federal action occurs, NEPA requires that we analyze that action’s affects on the natural environment. This allows both federal employees and the public to be informed of federal actions and allows for an inclusive planning process. Within the government, it requires biologists, ecologists, archaeologists, hydrologists, etc. to analyze effects of a project to the natural and cultural environment. And it requires the public to be informed of future actions and give them a chance to comment on actions before they are implemented.&lt;/p&gt;
+
+&lt;h2 id=&quot;how-is-it-done&quot;&gt;How is it Done?&lt;/h2&gt;
+
+&lt;p&gt;So, what do federal agencies have to do to comply with NEPA? All actions have to be analyzed and documented in one or more of the following documents:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;http://en.wikipedia.org/wiki/National_Environmental_Policy_Act#Preparation_of_a_Categorical_Exclusion&quot;&gt;Categorical Exclusion(CatEx)&lt;/a&gt;&lt;/strong&gt; are: &lt;em&gt;“a category of actions which do not individually or cumulatively have a significant effect on the human environment and which have been found to have no such effect in procedures adopted by a Federal agency…&lt;/em&gt; therefore, neither an environmental assessment nor an environmental impact statement is required._” (&lt;a href=&quot;http://www.gpo.gov/fdsys/pkg/CFR-2010-title40-vol32/pdf/CFR-2010-title40-vol32-sec1508-4.pdf&quot;&gt;40 C.F.R. §1508.4&lt;/a&gt;)&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;http://en.wikipedia.org/wiki/Environmental_impact_assessment#United_States&quot;&gt;Environmental Assessment (EA):&lt;/a&gt;&lt;/strong&gt; If a proposed action does not fall within CatEx, your first step in the NEPA process is an EA. Through environmental analysis in an EA, two outcomes can result: (a) a finding of no significant impact (FONSI), in which case the project may continue &lt;a href=&quot;http://www.ecfr.gov/cgi-bin/retrieveECFR?gp=1&amp;amp;SID=3b36d48d544a2636ce097db169b41c9c&amp;amp;ty=HTML&amp;amp;h=L&amp;amp;mc=true&amp;amp;r=PART&amp;amp;n=pt40.33.1508#se40.33.1508_19&quot;&gt;(40 CFR §1508.9)&lt;/a&gt;; or (b) you find that the action will lead to &lt;strong&gt;significant&lt;/strong&gt; impacts and further analysis is required in an:&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;http://en.wikipedia.org/wiki/Environmental_impact_statement&quot;&gt;Environmental Impact Statement (EIS):&lt;/a&gt;&lt;/strong&gt; are used to help make informed decisions on projects that will have &lt;strong&gt;significant&lt;/strong&gt; environemtal effects.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;what-is-significant&quot;&gt;What is Significant?&lt;/h2&gt;
+&lt;p&gt;During the course of taking various introductory NEPA courses, I really couldn’t figure out how to define significance.  And, being that one of the most important NEPA decision is to determine significance, it was frusturating to find that the threshold for significance was so ambigouse and difficult to figure out. So what do the regulations say:&lt;/p&gt;
+
+&lt;p&gt;In general to determine significance, you must consider both “context” and “intensity” of an action.&lt;/p&gt;
+
+&lt;p class=&quot;quote&quot;&gt;&lt;strong&gt;Context:&lt;/strong&gt; “This means that the significance of an action must be analyzed in several contexts such as society as a whole (human, national), the affected region, the affected interests, and the locality. Significance varies with the setting of the proposed action. For instance, for a site-specific action, significance would usually depend upon the effects in the locale rather than in the world as a whole. Both short-term and long-term effects are relevant.” &lt;a href=&quot;http://www.ecfr.gov/cgi-bin/retrieveECFR?gp=1&amp;amp;SID=3b36d48d544a2636ce097db169b41c9c&amp;amp;ty=HTML&amp;amp;h=L&amp;amp;mc=true&amp;amp;r=PART&amp;amp;n=pt40.33.1508#se40.33.1508_127&quot;&gt;(40 CFR §1508.27)&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;And&lt;/p&gt;
+
+&lt;p class=&quot;quote&quot;&gt;&lt;strong&gt;Intensity&lt;/strong&gt; “This refers to the severity of effect. Responsible officials must bear in mind that more than one agency may make decisions about partial aspects of a major action….” &lt;a href=&quot;http://www.ecfr.gov/cgi-bin/retrieveECFR?gp=1&amp;amp;SID=3b36d48d544a2636ce097db169b41c9c&amp;amp;ty=HTML&amp;amp;h=L&amp;amp;mc=true&amp;amp;r=PART&amp;amp;n=pt40.33.1508#se40.33.1508_127&quot;&gt;(40 CFR §1508.27)&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;What I get out of all of that is that “It depends”.  What I am coming to understand more and more is that NEPA is not always a clear path, but more often a helpful guide. After reading the CFRs I didn’t really understand how to come to a significance determination clearly. I did see a good example that helped me understand context and intensity better:&lt;/p&gt;
+
+&lt;p class=&quot;quote&quot;&gt;”…let’s say a project would adversely affect 1 acre of salamander habitat. The impact would be significant if it were the last acre of habitat in the state, but would not be significant if there were a million acres of habitat in the state.” &lt;a href=&quot;http://www.ntc.blm.gov/krc/uploads/310/Lesson3_Significance-12-18-09.pdf&quot;&gt;(BLM NTC)&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;whats-important&quot;&gt;What’s Important?&lt;/h2&gt;
+
+&lt;p&gt;So if significance is ambiguous, what is NEPA really for.  Well, I’m not really the one to ask but…. It seems like what is most important about NEPA is analyzing project effects and laying out your rationale for the decisions that you ultimately will make with that rationale. In other words, if you determine what effect your project will have on the human environment and then take that analysis and clearly explain how you came to a conclusion you are doing NEPA.&lt;/p&gt;
+
+&lt;h2 id=&quot;in-closing&quot;&gt;In Closing&lt;/h2&gt;
+&lt;p&gt;If there’s one thing that I’ve learned about NEPA its that its a hard topic to grasp completely without doing it a lot.  It always baffles me how almost everyone I ask interprets how to do NEPA correctly, differently.  So if you’re like me, and you have just started working on NEPA, hopefully you don’t get too wrapped up in the right or wrong way to do it.&lt;/p&gt;
+
+&lt;h2 id=&quot;resources&quot;&gt;Resources:&lt;/h2&gt;
+
+&lt;h3 id=&quot;handbooks&quot;&gt;Handbooks&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;http://www.fs.fed.us/emc/nepa/includes/wo_1909_15_30.pdf&quot;&gt;Forest Service NEPA Handbook&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;http://www.blm.gov/pgdata/etc/medialib/blm/wo/Information_Resources_Management/policy/blm_handbook.Par.24487.File.dat/h1790-1-2008-1.pdf&quot;&gt;BLM NEPA Handbook&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;em&gt;Note: I am not a NEPA expert.  Far from it actually, if anyone out there is interested in contributing to this discussion that is a NEPA expert, I would love to hear from you or, even better, have you write a guest post. Contact me at schmidtyworks@gmail.com.&lt;/em&gt;&lt;/p&gt;
+
+</description>
+        <pubDate>Mon, 11 May 2015 00:00:00 -0600</pubDate>
+        <link>//blog/nepa/2015/05/11/NEPA.html</link>
+        <guid isPermaLink="true">//blog/nepa/2015/05/11/NEPA.html</guid>
+        
+        
+        <category>blog</category>
+        
+        <category>nepa</category>
+        
+      </item>
+    
+      <item>
+        <title>Chronicle I</title>
+        <description>&lt;p&gt;The chronicle is a short list of the tools that I’m using that help me do my job and some odds and ends that make life a little better.&lt;/p&gt;
+
+&lt;p&gt;I got this idea from Chris Coyier at &lt;a href=&quot;http://css-tricks.com&quot;&gt;CSS-Tricks&lt;/a&gt;-  he’s on &lt;a href=&quot;http://css-tricks.com/css-tricks-chronicle-xx/&quot;&gt;Chronicle XX&lt;/a&gt;. I’ve learned a great deal about web workflow by reading his posts, and wanted to start doing the same for Biology.&lt;/p&gt;
+
+&lt;h2 id=&quot;evernote&quot;&gt;Evernote&lt;/h2&gt;
+
+&lt;div class=&quot;post-image-icon center img-box-shadow-effect&quot;&gt;
+&lt;img src=&quot;/images/post-images/chronicle/evernote-logo.jpg&quot; alt=&quot;Evernote Logo&quot; /&gt;
+&lt;/div&gt;
+
+&lt;p&gt;If there’s one tool that I think every biologist should use it’s &lt;a href=&quot;https://evernote.com/&quot;&gt;Evernote&lt;/a&gt;.  Evernote is awesome because it allows you to upload files and add tags to your notes to keep them organized.   I use it as a note taking, task tracking, annotated bibliography, file compiling juggernaut.  Check it out at:  &lt;a href=&quot;https://www.evernote.com/Registration.action&quot;&gt;account&lt;/a&gt;.&lt;/p&gt;
+
+&lt;div class=&quot;img-box-shadow-effect&quot;&gt;
+&lt;img src=&quot;/images/post-images/chronicle/screenshot-gusglisting.png&quot; alt=&quot;Gunnison sage-grouse note from my evernote&quot; /&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&quot;google-calendar&quot;&gt;Google Calendar&lt;/h2&gt;
+
+&lt;div class=&quot;post-image-icon center&quot;&gt;
+&lt;img src=&quot;/images/post-images/chronicle/calendar-icon.png&quot; alt=&quot;Google Calendar Icon&quot; /&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Over the last couple of years I’ve really liked using &lt;a href=&quot;http://www.google.com/calendar&quot;&gt;Google calendar&lt;/a&gt; to organize my life.  If you are like me and have several employees working on several different projects, Google calendar can help you lay out what needs to get done and, through your google account, the Calendar automatically shares that information with who ever you want.&lt;/p&gt;
+
+&lt;div class=&quot;img-box-shadow-effect&quot;&gt;
+&lt;img src=&quot;/images/post-images/chronicle/screenshot-calendar.png&quot; alt=&quot;Google Calendar Example&quot; /&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&quot;ibird-pro&quot;&gt;iBird Pro&lt;/h2&gt;
+
+&lt;div class=&quot;post-image-icon center&quot;&gt;
+&lt;img src=&quot;/images/post-images/chronicle/ibird-iphone.jpg&quot; alt=&quot;iBird&quot; /&gt;
+&lt;/div&gt;
+
+&lt;p&gt;I try to find tools that are pushing our field forward. The suite of &lt;a href=&quot;http://ibird.com/&quot;&gt;iBird&lt;/a&gt; applications that are available for just about every tablet and smartphone platform are the ultimate bird guides for the 21st century.  Unlike a typical paper ID books, iBird comes with:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;A very nice search tool that allows you to search by habitat, bird size, shape and location.&lt;/li&gt;
+  &lt;li&gt;Every bird comes with a drawing and few pictures of the species. More common species usually include several morphs, juvenile as well as male female pictures.&lt;/li&gt;
+  &lt;li&gt;Every bird comes with several call recordings.&lt;/li&gt;
+  &lt;li&gt;There are even quizzes built in. So you can learn your calls and ID’s.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;home-screen&quot;&gt;Home Screen&lt;/h3&gt;
+
+&lt;div class=&quot;image-border img-box-shadow-effect&quot;&gt;
+	&lt;picture class=&quot;full-width&quot;&gt;
+		&lt;!--[if IE 9]&gt;&lt;video style=&quot;display: none;&quot;&gt;&lt;![endif]--&gt;
+		&lt;source srcset=&quot;/images/post-images/chronicle/ibird-home-large.jpg&quot; media=&quot;(min-width: 800px)&quot; /&gt;
+		&lt;source srcset=&quot;/images/post-images/chronicle/ibird-home-medium.jpg&quot; media=&quot;(min-width: 550px)&quot; /&gt;
+		&lt;!--[if IE 9]&gt;&lt;/video&gt;&lt;![endif]--&gt;
+		&lt;img srcset=&quot;/images/post-images/chronicle/ibird-home-small.jpg&quot; alt=&quot;ibird homescreen&quot; /&gt;
+	&lt;/picture&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&quot;images&quot;&gt;Images&lt;/h3&gt;
+
+&lt;div class=&quot;image-border img-box-shadow-effect&quot;&gt;
+	&lt;picture class=&quot;full-width&quot;&gt;
+		&lt;!--[if IE 9]&gt;&lt;video style=&quot;display: none;&quot;&gt;&lt;![endif]--&gt;
+		&lt;source srcset=&quot;/images/post-images/chronicle/ibird-images-large.jpg&quot; media=&quot;(min-width: 800px)&quot; /&gt;
+		&lt;source srcset=&quot;/images/post-images/chronicle/ibird-images-medium.jpg&quot; media=&quot;(min-width: 550px)&quot; /&gt;
+		&lt;!--[if IE 9]&gt;&lt;/video&gt;&lt;![endif]--&gt;
+		&lt;img srcset=&quot;/images/post-images/chronicle/ibird-images-small.jpg&quot; alt=&quot;ibird homescreen&quot; /&gt;
+	&lt;/picture&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&quot;calls&quot;&gt;Calls&lt;/h3&gt;
+
+&lt;div class=&quot;image-border img-box-shadow-effect&quot;&gt;
+	&lt;picture class=&quot;full-width&quot;&gt;
+		&lt;!--[if IE 9]&gt;&lt;video style=&quot;display: none;&quot;&gt;&lt;![endif]--&gt;
+		&lt;source srcset=&quot;/images/post-images/chronicle/ibird-sound-large.jpg&quot; media=&quot;(min-width: 800px)&quot; /&gt;
+		&lt;source srcset=&quot;/images/post-images/chronicle/ibird-sound-medium.jpg&quot; media=&quot;(min-width: 550px)&quot; /&gt;
+		&lt;!--[if IE 9]&gt;&lt;/video&gt;&lt;![endif]--&gt;
+		&lt;img srcset=&quot;/images/post-images/chronicle/ibird-sound-small.jpg&quot; alt=&quot;ibird homescreen&quot; /&gt;
+	&lt;/picture&gt;
+&lt;/div&gt;
+
+</description>
+        <pubDate>Fri, 16 Jan 2015 00:00:00 -0700</pubDate>
+        <link>//blog/chronicle/workflow/2015/01/16/chronicle-I.html</link>
+        <guid isPermaLink="true">//blog/chronicle/workflow/2015/01/16/chronicle-I.html</guid>
+        
+        
+        <category>blog</category>
+        
+        <category>chronicle</category>
+        
+        <category>workflow</category>
+        
+      </item>
+    
+      <item>
+        <title>The Federal Hiring System</title>
+        <description>&lt;p&gt;I just applied for a new job with the federal government.  One week after applying for the position I was notified that I was “not referred” to the selecting officials for the position that I applied for with no justification. Fast forward two days later, for the same job, and after several phone calls and emails to human resources, I was referred to the hiring officials as one of the top candidates for the position.&lt;/p&gt;
+
+&lt;p&gt;After telling my story to others I was comforted to hear that I was not the only one that was baffled by the system.  The following is a collection of information that will hopefully prevent others from repeating my mistakes.&lt;/p&gt;
+
+&lt;div class=&quot;img-box-shadow-effect&quot;&gt;
+	&lt;picture class=&quot;full-width&quot;&gt;
+		&lt;!--[if IE 9]&gt;&lt;video style=&quot;display: none;&quot;&gt;&lt;![endif]--&gt;
+		&lt;source srcset=&quot;/images/post-images/federal_hiring_system/city-of-rocks-big.jpg&quot; media=&quot;(min-width: 900px)&quot; /&gt;
+		&lt;source srcset=&quot;/images/post-images/federal_hiring_system/city-of-rocks-medium.jpg&quot; media=&quot;(min-width: 500px)&quot; /&gt;
+		&lt;!--[if IE 9]&gt;&lt;/video&gt;&lt;![endif]--&gt;
+		&lt;img srcset=&quot;/images/post-images/federal_hiring_system/city-of-rocks.jpg&quot; alt=&quot;City of Rocks State Park | Photo: Mike Schmidt&quot; /&gt;
+	&lt;/picture&gt;
+&lt;/div&gt;
+
+&lt;p class=&quot;photo-tag&quot;&gt;City of Rocks State Park, Idaho. (Photo: Mike Schmidt)&lt;/p&gt;
+
+&lt;h2 id=&quot;dont-be-afraid-to-call-human-resources&quot;&gt;Don’t Be Afraid to Call Human Resources&lt;/h2&gt;
+&lt;p&gt;I heard over and over again that folks were having issues with hiring, but very few people had actually called HR.  If I hadn’t called HR I would never have been qualified for the job &amp;amp; my application would have been pointless.  The number on the job announcement is a good place to start.  However, don’t be afraid to call an HR person that you have worked with day to day.  They can often move you in the right direction.&lt;/p&gt;
+
+&lt;h2 id=&quot;merit-vs-deu&quot;&gt;Merit vs DEU&lt;/h2&gt;
+&lt;p&gt;There are two main types of announcements on USAjobs that you may apply for, DEU and Merit.  Merit announcements are open to applicants that are either currently working for the federal government in a career conditional or career appointment, or employees with status.  Typically if you are a current permanent federal employee you fall into one of these two categories (your most recent SF-50 should tell you as well). If you do not qualify for the Merit position then you can apply for the DEU position which is open to the the public.  It is very advantageous to qualify for Merit Positions.  When there are enough candidates that have applied for a Merit position, those that have applied for the DEU announcement will not even be considered. Unfortunately, not even a call or email to HR can help you at this point.&lt;/p&gt;
+
+&lt;div class=&quot;center excerpt light-grey max-width-700&quot;&gt;
+&lt;h3 class=&quot;center underline bold uppercase&quot;&gt;Merit&lt;/h3&gt;
+
+&lt;img src=&quot;/images/post-images/hiring-merit.jpg&quot; alt=&quot;Image of Merit description from USA jobs&quot; /&gt;
+&lt;/div&gt;
+&lt;div class=&quot;center excerpt light-grey max-width-700&quot;&gt;
+
+&lt;h3 class=&quot;center underline bold uppercase&quot;&gt;DEU&lt;/h3&gt;
+
+&lt;img src=&quot;/images/post-images/hiring-deu.jpg&quot; alt=&quot;Image of DEU description from USA jobs&quot; /&gt;
+
+&lt;/div&gt;
+
+&lt;h2 id=&quot;the-questionnaire&quot;&gt;The Questionnaire&lt;/h2&gt;
+&lt;p&gt;After you have chosen which job announcement is right for you, the first part of most applications consists of several questions that are supposed to asses how qualified you are for the job that you are applying for. Most of the multiple choice questions give you the option to select from the following:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;I have no experience in performing this work behavior.&lt;/li&gt;
+  &lt;li&gt;I have limited experience in performing this work behavior. I have had exposure to this work behavior but would require additional guidance, instruction, or experience to perform it at a proficient level.&lt;/li&gt;
+  &lt;li&gt;I have performed work in this task as a regular part of a job.  I have performed independently and normally without review by a supervisor or senior employee.&lt;/li&gt;
+  &lt;li&gt;Work in this task has been a central or major part of my job.  I have routinely performed the work and have trained others in performance of this work and others have consulted me as an expert for assistance in performance of this work.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Here’s the thing: if you don’t rank high enough in the questionnaire, &lt;strong&gt;you will not be referred to the hiring official&lt;/strong&gt;, and no one will see your application.  Because of this fact, I have heard over and over again that you should just lie.  I don’t want to recommend that here. Lying applicants flood hiring certs with poor candidates, and that doesn’t help anyone.  Instead, the best thing that you can do to beat the questionnaire is to not &lt;a href=&quot;http://www.fedsmith.com/2013/04/02/are-you-guilty-the-federal-jobseeker-and-deflating-questionnaire-responses/&quot;&gt;deflate&lt;/a&gt; your responses.  A good way to do this is to go through each question and right down a justification for each answer.  If you can justify, in any way, that the experiences that you have had fit in a higher category, then select it. Writing down a justification will also give you a reference if you get an interview.  Too many people take the questionnaire lightly and deflate their answers because they are afraid of being called out in an interview.  In my experience if someone is questioning the legitimacy of an answer you gave on the questionnaire, they want to eliminate you because they have another candidate in mind.&lt;/p&gt;
+
+&lt;div class=&quot;img-box-shadow-effect&quot;&gt;
+	&lt;picture class=&quot;full-width&quot;&gt;
+		&lt;!--[if IE 9]&gt;&lt;video style=&quot;display: none;&quot;&gt;&lt;![endif]--&gt;
+		&lt;source srcset=&quot;/images/post-images/federal_hiring_system/eastern-sierrabig.jpg&quot; media=&quot;(min-width: 1000px)&quot; /&gt;
+		&lt;source srcset=&quot;/images/post-images/federal_hiring_system/eastern-sierra-medium.jpg&quot; media=&quot;(min-width: 800px)&quot; /&gt;
+		&lt;!--[if IE 9]&gt;&lt;/video&gt;&lt;![endif]--&gt;
+		&lt;img srcset=&quot;/images/post-images/federal_hiring_system/eastern-sierra.jpg&quot; alt=&quot;Eastern Sierra Mountains, Bishop, California | Photo: Mike Schmidt&quot; /&gt;
+	&lt;/picture&gt;
+&lt;/div&gt;
+
+&lt;p class=&quot;photo-tag&quot;&gt;Inyo National Forest in Bishop, California. (Photo: Mike Schmidt)&lt;/p&gt;
+
+&lt;h2 id=&quot;education&quot;&gt;Education&lt;/h2&gt;
+
+&lt;p&gt;When I was notified by USA Jobs that I was not referred, it didn’t tell me why. I had assumed that it was because I had not submitted the correct documentation, or not rated high enough compared to the other candidates.  So, and because of habit, I called HR to figure out what “not referred” meant and why I was put in that category. Turns out my application was junked because I was supposedly missing one educational credit in plant biology. Strangely, I had recently been qualified for the exact same position by another HR department.  What happened?&lt;/p&gt;
+
+&lt;p&gt;Most series have an educational component that you must meet to be referred to hiring officials. My qualifications looked like this:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;At least 9 semester hours in such wildlife subjects as mammalogy, ornithology, animal ecology, wildlife management, or research courses in the field of wildlife biology; and&lt;/li&gt;
+  &lt;li&gt;At least 12 semester hours in zoology in such subjects as general zoology, invertebrate zoology, vertebrate zoology, comparative anatomy, physiology, genetics, ecology, cellular biology, parasitology, entomology, or research courses in such subjects (Excess courses in wildlife biology may be used to meet the zoology requirements when appropriate.); and&lt;/li&gt;
+  &lt;li&gt;At least 9 semester hours in botany or the related plant sciences.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Once you submit your application an HR person goes through all of the candidates and checks to see which candidates have the correct courses to qualify for a job. In my case, and depending on the HR person, Ecology can count as a plant science (as was the case for me with the Forest Service) or not (as was the case with the BLM).&lt;/p&gt;
+
+&lt;p&gt;I pleaded with HR “I promise you, that class was 2 weeks of plant and 2 weeks of animal research techniques”.  You can understand their reluctance to believe me.  I even went as far as to send her the definition of ecology.  But, alas, she would not budge.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Don’t let this happen to you&lt;/strong&gt; - I was told that the only way they would accept my course without additional verifiable information, was if the title of the course had “Animal” or “Plant” in the title. To avoid this fiasco, submit additional information with your education in the section that asks for additional attachments at the end of the questionnaire.  For me all I had to do was send them a copy of the course description from my college course catalog and they accepted Ecology as a plant science. I was also told that a signed letter on official letterhead would also work (this would have applied to my research on plants in “Senior Thesis”).&lt;/p&gt;
+
+&lt;h2 id=&quot;be-nice&quot;&gt;Be Nice&lt;/h2&gt;
+
+&lt;p&gt;HR folks get yelled at all the time for doing the best they can at a task that should not be assigned to them, &lt;strong&gt;BE NICE&lt;/strong&gt;.&lt;/p&gt;
+
+</description>
+        <pubDate>Wed, 01 Oct 2014 00:00:00 -0600</pubDate>
+        <link>//blog/hiring/feds/usajobs/2014/10/01/Navigating-The-Federal-Hiring-System.html</link>
+        <guid isPermaLink="true">//blog/hiring/feds/usajobs/2014/10/01/Navigating-The-Federal-Hiring-System.html</guid>
+        
+        
+        <category>blog</category>
+        
+        <category>hiring</category>
+        
+        <category>feds</category>
+        
+        <category>usajobs</category>
+        
+      </item>
+    
+      <item>
+        <title>Why am I Blogging?</title>
+        <description>&lt;p&gt;This is my first blog post on &lt;a href=&quot;http://schmidtyworks.com&quot;&gt;schmidtyworks.com&lt;/a&gt;.  That being the case, I wanted to make some goals for this site and layout why I’ve decided to put my hat in the blogging ring. First a little bit of background.&lt;/p&gt;
+
+&lt;h2 id=&quot;learning-web-design&quot;&gt;Learning Web Design&lt;/h2&gt;
+
+&lt;p&gt;Over the past two and a half years I’ve slowly been digging myself deeper into the world of web design.  I’ve learned a lot.  Enough to build this site from scratch with state of the art tools that were mostly free.&lt;/p&gt;
+
+&lt;p&gt;I have never taken a single class in computer programming or design. What I’ve learned has come from some amazing and free online resources. &lt;a href=&quot;http://css-tricks.com&quot;&gt;CSS-Tricks&lt;/a&gt;, &lt;a href=&quot;http://code.tutsplus.com&quot;&gt;tuts+&lt;/a&gt;, &lt;a href=&quot;http://treehouse.com&quot;&gt;Treehouse&lt;/a&gt;, and &lt;a href=&quot;http://timothytraining.net&quot;&gt;Timothy Training&lt;/a&gt;, to name a few of the major ones.  Most of the sites that I learned from are either made by one person, CSS-Tricks for example (he has guests occasionally), or are a curated collection of many individuals articles. Regardless, web designers and developers are encouraged to share what they’ve learned and how they learned it. Thus creating a WEB of shared knowledge and experiences for the betterment of all.&lt;/p&gt;
+
+&lt;h2 id=&quot;for-me-web-development-is-just-a-hobby&quot;&gt;For Me, Web Development is Just a Hobby&lt;/h2&gt;
+
+&lt;p&gt;Building websites is my hobby.  Managing public lands as a biologist is my career.  In biology we don’t share much. What we do, is shared in a scientific journal, very long PDF or email.   While these are amazing sources of information, they are hard to read and usually really boring.  My dream is to have a resource where people can go and learn the way that web designers do.  I can’t tell you how many times that I have googled something biological and come up with an endless stream of PDFs.  One day I want to google Mexican Spotted Owl Surveys and read a blog post about what issues people ran into and what they’ve learned instead of a 20 page &lt;a href=&quot;http://www.fws.gov/mountain-prairie/endspp/protocols/MexicanSpottedOwlSurveyProtocol2012.pdf&quot;&gt;PDF&lt;/a&gt;. We have the internet now.  Make it interactive, responsive and community based. We can do better.&lt;/p&gt;
+
+&lt;div class=&quot;img-box-shadow-effect&quot;&gt;
+	&lt;picture&gt;
+		&lt;!--[if IE 9]&gt;&lt;video style=&quot;display: none;&quot;&gt;&lt;![endif]--&gt;
+		&lt;source srcset=&quot;/images/castletontowerlarge.jpg&quot; media=&quot;(min-width: 1000px)&quot; /&gt;
+		&lt;source srcset=&quot;/images/castletontowermedium.jpg&quot; media=&quot;(min-width: 800px)&quot; /&gt;
+		&lt;!--[if IE 9]&gt;&lt;/video&gt;&lt;![endif]--&gt;
+		&lt;img srcset=&quot;/images/castletontowersmall.jpg&quot; alt=&quot;Castleton Tower | Photo: Mike Schmidt&quot; /&gt;
+	&lt;/picture&gt;
+&lt;/div&gt;
+
+&lt;p class=&quot;photo-tag&quot;&gt;Some of the most beautiful public lands around.  Castleton Tower, Castle Valley, Utah. (Photo: Mike Schmidt)&lt;/p&gt;
+
+&lt;h2 id=&quot;where-are-you-going-with-this&quot;&gt;Where Are You Going With This?&lt;/h2&gt;
+&lt;p&gt;I care deeply about public land management.  Some of my favorite places in the world are on public lands, and I am fortunate to have the privilege to manage them.  But, I have so much to learn.  Sharing what I am working on in a way that makes sense to someone else is the best way to actively learn something in my opinion.  Learning and teaching is great, but the real beauty of this system of teaching/learning will, hopefully, build a resource that is useful to myself and others.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://blog.martinfenner.org/2014/08/25/using-microsoft-word-with-git/&quot;&gt;Others are already doing this (not really biology related, but helpful in my field nonetheless)&lt;/a&gt; and I’m sure there are more people beginning to share then I realize.  So I want to do my part by sharing my experiences on this blog.  Hopefully I’ll learn a lot along the way and create a resource that is useful not just for me, but for those that come after me as well.&lt;/p&gt;
+
+&lt;h2 id=&quot;winter-2014-goals&quot;&gt;Winter 2014 Goals:&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Finish the site.&lt;/strong&gt;  I still have a lot to do, so I’m going to start simple.  Home page will be my most recent article.  Article page will be an archive page. My Web page will be Web stuff (gotta give back). About page will be about (duh). As of this writing I just have a home page.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Start collecting things that I’ve learned by doing my job.&lt;/strong&gt; I want to write about what I’ve been working on and learning at work. Hopefully when I’m done I will have a really good resource for myself at the very least.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Add a comments Section to the site.&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;That is a lot for the rest of the year.  At the beginning of the year I’ll check back in and make some adjustments if need be.  So, here’s to a beginning!&lt;/p&gt;
+
+</description>
+        <pubDate>Wed, 24 Sep 2014 00:00:00 -0600</pubDate>
+        <link>//blog/science/2014/09/24/Why-am-i-blogging.html</link>
+        <guid isPermaLink="true">//blog/science/2014/09/24/Why-am-i-blogging.html</guid>
+        
+        
+        <category>blog</category>
+        
+        <category>science</category>
+        
+      </item>
+    
+  </channel>
+</rss>
