@@ -1,15 +1,19 @@
-//Include gulp
-var gulp = require('gulp');
+
 
 //Include our plugins
-var	sass = require('gulp-sass');
-var	autoprefixer = require('gulp-autoprefixer');
-var uglify = require('gulp-uglify');
-var	minifycss = require('gulp-minify-css');
-var imagemin = require('gulp-imagemin');
+var gulp = require('gulp'),
+    plumber = require('gulp-plumber'),
+    rename = require('gulp-rename');
+var autoprefixer = require('gulp-autoprefixer');
 var concat = require('gulp-concat');
-var	livereload = require('gulp-livereload');
-var	rename = require("gulp-rename");
+var jshint = require('gulp-jshint');
+var uglify = require('gulp-uglify');
+var imagemin = require('gulp-imagemin'),
+    cache = require('gulp-cache');
+var minifycss = require('gulp-minify-css');
+var sass = require('gulp-sass');
+
+
 
 // Compile Our Sass
 gulp.task('styles', function() {
@@ -36,6 +40,7 @@ gulp.task('images', function() {
     .pipe(imagemin({ optimizationLevel: 3, progressive: true, interlaced: true }))
     .pipe(gulp.dest('images'))
 });
+
 
 
 
