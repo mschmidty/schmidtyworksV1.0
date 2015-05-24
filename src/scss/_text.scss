@@ -62,4 +62,24 @@ p {
   
  }
 
+ 
+
+@import '_text-prism';
+
+pre {
+  white-space: pre-wrap;
+  background-color: $black;
+  text-align:left;
+  margin:0 auto;
+  padding-left:0.5em;
+  border-radius:4px;
+  display:block;
+ }
+ @media all and(max-width:700px){
+  pre {
+    border-radius:0;
+  }
+ }
+
+
 
