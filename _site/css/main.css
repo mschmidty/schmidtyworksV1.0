@@ -1,5 +1,5 @@
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700);
 @import url(http://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic);
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,700,300);
 *, *:before, *:after {
   box-sizing: border-box; }
 
@@ -361,14 +361,16 @@ svg {
   src: url('font/g_bookletter.eot?') format('eot'), url('font/g_bookletter.woff') format('woff'), url('font/g_bookletter.ttf') format('truetype'); }
 
 body {
-  font-family: 'g_bookletter', Georgia, Times, "Times New Roman", serif; }
+  font-family: 'g_bookletter', Georgia, Times, "Times New Roman", serif;
+  font-weight: 300;
+  color: #333333; }
 
 h1 {
-  font-size: 5em;
+  font-size: 4em;
   text-transform: uppercase; }
 
 h2 {
-  font-size: 2.2em;
+  font-size: 1.8em;
   -webkit-transition: font-size 0.4s ease;
           transition: font-size 0.4s ease;
   text-transform: uppercase;
@@ -383,18 +385,19 @@ p {
   font-family: 'Droid Serif', serif;
   font-size: 1.15em;
   margin-bottom: 1em;
-  line-height: 1.8em; }
+  line-height: 1.8em;
+  color: #333333; }
 
 .module p, .module li {
   text-align: left; }
   .module p a, .module li a {
-    color: #5fb044;
+    color: #FF530D;
     font-size: 1.1em;
     text-decoration: none; }
   .module p a:hover, .module li a:hover {
-    color: #9ed38c; }
+    color: #FF530D; }
 .module h1 {
-  font-size: 5em; }
+  font-size: 4em; }
   .module h1 a {
     color: #111111;
     text-decoration: none; }
@@ -674,9 +677,6 @@ nav {
   nav ul {
     margin: 87px 0 0 0; } }
 
-body {
-  badckground: #fff; }
-
 .left {
   float: left;
   text-align: left;
@@ -733,7 +733,7 @@ article {
     margin: .8em auto; }
   .module h2 a {
     text-decoration: none;
-    color: #5fb044; }
+    color: #FF530D; }
   .module p {
     display: block;
     margin: 1.2em auto; }

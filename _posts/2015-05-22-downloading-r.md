@@ -72,7 +72,6 @@ Type 'demo()' for some demos, 'help()' for on-line help, or
 Type 'q()' to quit R.
 
 >
-
 ~~~~
 {: .language-r}
 
@@ -84,7 +83,6 @@ Now, with R still running lets try a few things:
 >  x
 [1] 59000
 >
-
 ~~~~
 {: .language-r}
 
@@ -113,7 +111,6 @@ To create a key-binding in Sublime to run R scripts past the following into your
    
 // Executes line(s) of text in REPL terminal
 { "keys": ["control+shift+l"], "command": "repl_transfer_current", "args": {"scope": "lines"}}
-
 ~~~~
 {: .language-bash}
 
@@ -126,7 +123,6 @@ Now we can open sublime create a file like we did above:
 >  x
 [1] 59000
 >
-
 ~~~~
 {: .language-r}
 
@@ -153,7 +149,6 @@ Type 'demo()' for some demos, 'help()' for on-line help, or
 Type 'q()' to quit R.
 
 >
-
 ~~~~
 {: .language-r}
 
@@ -165,7 +160,6 @@ And you should be able to highlight your r text:
 >  x
 [1] 59000
 >
-
 ~~~~
 {: .language-r}
 
