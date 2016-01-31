@@ -1,0 +1,32 @@
+.walkabouts {
+  h1  {
+    text-align:center;
+  }
+  h4 {
+    text-align:center;
+  }
+  ol {
+    img {
+      height:2.5em;
+      display:inline-block;
+      width:auto;
+      margin-top:0;
+    }
+  }
+  .red {
+    color:$red;
+  }
+  .featured-image {
+    width:300px;
+    height:auto;
+    display:block;
+    margin:0 auto;
+  }
+  .walkabouts-post-image {
+    height:2.5em;
+    display:inline-block;
+    width:auto;
+    margin-top:0;
+  } 
+
+}

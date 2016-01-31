@@ -1,0 +1,9 @@
+.sagebrush-states {
+  @include clearfix;
+  .stateface {
+    display:block;
+    float:left;
+    font-size:2em;
+    @include clearfix;
+  }
+}
