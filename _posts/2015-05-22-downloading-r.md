@@ -168,6 +168,32 @@ and press cntrl+shift+j and your code should compile in the window running R.
 
 Now you're ready to use or learn R in a very nice working environment. 
 
+##Downloading and using Packages
+
+R takes advantage of packages to increase its flexibility. The packages are created by people to do specific things. For example let's say I want to download a package that can do a power analysis for spacial information.  I search google and find that the [rSPACE][rSPACE] program does that.  I open up the command line and type:
+
+~~~
+
+install.packages('rSPACE')
+~~~
+{: .language-r}
+
+In the command line will ask what mirror you would like to selact.  My closest is California, so I type "20".  Note that downloading packages won't work in REPL/Sublime if you have that set up. 
+
+###Including packages in a project
+
+To use this package in a script include the following at the beginning of the script to load the package into your project: 
+
+~~~
+
+library(rSPACE)
+~~~
+{: .language-r}
+
+Note that R libraries disappear at the end of each r session, so you must re-load the the library with each r session. 
+
+More resources: [How to Package on Youtube][youtube packages]
+
 ##Resources
 
 * [Video on how to use microsoft data in R][microsoftr]
@@ -203,7 +229,10 @@ Now you're ready to use or learn R in a very nice working environment.
 
 [sREPL]: https://github.com/wuub/SublimeREPL
 
-[rstudio]: www.rstudio.com/
+[rstudio]: http://www.rstudio.com/
 
+[rSPACE]: https://cran.r-project.org/web/packages/rSPACE/index.html
+
+[youtube packages]: https://www.youtube.com/watch?v=3RWb5U3X-T8&list=PLqzoL9-eJTNBDdKgJgJzaQcY6OXmsXAHU&index=11
 
 

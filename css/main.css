@@ -813,6 +813,9 @@ article {
       -ms-transform: skew(8deg) rotate(3deg);
           transform: skew(8deg) rotate(3deg); }
 
+.reference {
+  font-size: .8em; }
+
 .post-haeder {
   text-align: center; }
 
@@ -860,27 +863,39 @@ article {
   .articles-thumb:last-of-type {
     border: none; }
 
-.sagebrush-states {
-  zoom: 1; }
-  .sagebrush-states:before, .sagebrush-states:after {
-    content: "\0020";
+.sagebrush-states .stateface {
+  font-size: 4em;
+  position: relative;
+  line-height: .8em; }
+
+.elevation-list {
+  margin: 0; }
+
+.elevation-list li {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+      -ms-flex-pack: start;
+          justify-content: flex-start; }
+  .elevation-list li span {
+    max-width: 0; }
+  .elevation-list li p {
     display: block;
-    height: 0;
-    overflow: hidden; }
-  .sagebrush-states:after {
-    clear: both; }
-  .sagebrush-states .stateface {
-    display: block;
-    float: left;
-    font-size: 2em;
-    zoom: 1; }
-    .sagebrush-states .stateface:before, .sagebrush-states .stateface:after {
-      content: "\0020";
-      display: block;
-      height: 0;
-      overflow: hidden; }
-    .sagebrush-states .stateface:after {
-      clear: both; }
+    -webkit-box-flex: 1;
+    -webkit-flex: auto;
+        -ms-flex: auto;
+            flex: auto;
+    text-align: left;
+    margin: 0;
+    padding: 0; }
 
 .walkabouts h1 {
   text-align: center; }
