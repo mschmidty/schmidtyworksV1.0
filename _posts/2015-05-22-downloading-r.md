@@ -176,8 +176,7 @@ Now you're ready to use or learn R in a very nice working environment.
 
 
 
-
-
+{::comment} -----Links ---------{:/comment}
 
 
 
