@@ -1,9 +1,25 @@
 .sagebrush-states {
-  @include clearfix;
   .stateface {
+    font-size:4em;
+    position:relative;
+    line-height:.8em;
+  }
+}
+.elevation-list {
+  margin:0;
+}
+.elevation-list li{
+  display:flex;
+  flex-direction:row;
+  justify-content:flex-start;
+  span {
+    max-width:0;
+  }
+    p {
     display:block;
-    float:left;
-    font-size:2em;
-    @include clearfix;
+    flex:auto;
+    text-align:left;
+    margin:0;
+    padding:0;
   }
 }

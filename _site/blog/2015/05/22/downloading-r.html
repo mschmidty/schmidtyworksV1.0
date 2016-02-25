@@ -1699,7 +1699,7 @@ Type 'q()' to quit R.
 
 <p class="photo-tag">Screen grab of my whole blog.</p>
 
-<p>Most people can stop here.  You have R downloaded and you can start working with it.  However, if you enjoy improving you work environment like I do you can further improve your workflow if you want. I have really enjoyed using <a href="https://www.sublimetext.com/">Sublime Text 3</a> as a text editor (an alternative to this would be to download <a href="www.rstudio.com/">R Studio</a>.  To bring R into an environment that I am familiar with, I downloaded <a href="https://github.com/wuub/SublimeREPL">SublimeREPL</a> using <a href="https://packagecontrol.io/">Sublime Package control</a>.  SublimeREPL allows you to compile R scripts right in the Sublime environment.</p>
+<p>Most people can stop here.  You have R downloaded and you can start working with it.  However, if you enjoy improving you work environment like I do you can further improve your workflow if you want. I have really enjoyed using <a href="https://www.sublimetext.com/">Sublime Text 3</a> as a text editor (an alternative to this would be to download <a href="http://www.rstudio.com/">R Studio</a>.  To bring R into an environment that I am familiar with, I downloaded <a href="https://github.com/wuub/SublimeREPL">SublimeREPL</a> using <a href="https://packagecontrol.io/">Sublime Package control</a>.  SublimeREPL allows you to compile R scripts right in the Sublime environment.</p>
 
 <p>To create a key-binding in Sublime to run R scripts past the following into your Preferences&gt;Key Bindings - User  file:</p>
 
@@ -1759,6 +1759,28 @@ Type 'q()' to quit R.
 <p>and press cntrl+shift+j and your code should compile in the window running R.</p>
 
 <p>Now you’re ready to use or learn R in a very nice working environment.</p>
+
+<h2 id="downloading-and-using-packages">Downloading and using Packages</h2>
+
+<p>R takes advantage of packages to increase its flexibility. The packages are created by people to do specific things. For example let’s say I want to download a package that can do a power analysis for spacial information.  I search google and find that the <a href="https://cran.r-project.org/web/packages/rSPACE/index.html">rSPACE</a> program does that.  I open up the command line and type:</p>
+
+<pre><code class="language-r">
+install.packages('rSPACE')
+</code></pre>
+
+<p>In the command line will ask what mirror you would like to selact.  My closest is California, so I type “20”.  Note that downloading packages won’t work in REPL/Sublime if you have that set up.</p>
+
+<h3 id="including-packages-in-a-project">Including packages in a project</h3>
+
+<p>To use this package in a script include the following at the beginning of the script to load the package into your project:</p>
+
+<pre><code class="language-r">
+library(rSPACE)
+</code></pre>
+
+<p>Note that R libraries disappear at the end of each r session, so you must re-load the the library with each r session.</p>
+
+<p>More resources: <a href="https://www.youtube.com/watch?v=3RWb5U3X-T8&amp;list=PLqzoL9-eJTNBDdKgJgJzaQcY6OXmsXAHU&amp;index=11">How to Package on Youtube</a></p>
 
 <h2 id="resources">Resources</h2>
 
