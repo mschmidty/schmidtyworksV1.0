@@ -22,4 +22,6 @@ exclude: [
 	readme.md,
 	main.css
 ]
-
+collections:
+	notes:
+	output:true
