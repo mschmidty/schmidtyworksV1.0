@@ -6,8 +6,8 @@
 </description>
     <link>//</link>
     <atom:link href="//feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 20 Feb 2016 18:34:04 -0700</pubDate>
-    <lastBuildDate>Sat, 20 Feb 2016 18:34:04 -0700</lastBuildDate>
+    <pubDate>Thu, 25 Feb 2016 18:34:21 -0700</pubDate>
+    <lastBuildDate>Thu, 25 Feb 2016 18:34:21 -0700</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -606,6 +606,8 @@ library(rSPACE)
   &lt;li&gt;&lt;a href=&quot;http://cran.r-project.org/doc/contrib/Seefeld_StatsRBio.pdf&quot;&gt;Stats for Biologists with R&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;http://www.alshum.com/sublime/&quot;&gt;How to get sublime text working with R&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
+
+&lt;p&gt;&lt;!--  -----Links --------- --&gt;&lt;/p&gt;
 
 </description>
         <pubDate>Fri, 22 May 2015 00:00:00 -0600</pubDate>
