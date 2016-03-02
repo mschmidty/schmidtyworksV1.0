@@ -1,9 +1,6 @@
 ---
 layout: post
-title:  "Chronicle I"
-date:   2015-1-16
-categories: blog 
-tags: chronicle workflow 
+title:  "Note on Stuff"
 ---
 
 The chronicle is a short list of the tools that I'm using that help me do my job and some odds and ends that make life a little better. 

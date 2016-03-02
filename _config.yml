@@ -7,6 +7,8 @@ baseurl: "/"  # the subpath of your site, e.g. /blog/
 url:   # the base hostname & protocol for your site
 # Build settings
 markdown: kramdown
+collections:
+  - notes
 exclude: [
 	.git,
 	.gitignore,
@@ -22,6 +24,3 @@ exclude: [
 	readme.md,
 	main.css
 ]
-collections:
-	notes:
-	output:true
