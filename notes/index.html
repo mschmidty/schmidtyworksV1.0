@@ -4,18 +4,12 @@ layout: default
 
 <div class="module col-1">
 <h1>Notes</h1>
-<<<<<<< HEAD
 
 
-  {% for note in site.notes %}
-    <div class="articles-thumb">
-      <h2><a href="{{ post.url }}">{{ note.title }}</a></h2>
-=======
 
   {% for note in site.notes %}
     <div class="articles-thumb">
       <h2><a href="{{ note.url }}">{{ note.title }}</a></h2>
->>>>>>> dc504312df7fef7b85a4f2282a1ff0a07050d2c6
       {{ note.excerpt }}
     </div>
   {% endfor %}

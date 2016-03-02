@@ -7,13 +7,14 @@ tags: deer elk
 ---
 
 ##When
-Mule Deer: Mid-winter, January and February. 
-Elk: February and March
+*Mule Deer:* Mid-winter, January and February. 
 
-*Some may retain their antlers into April. Younger animals retain their antlers longer than older antlers. 
+*Elk:* February and March
 
-#What are they?
+* Some may retain their antlers into April. Younger animals retain their antlers longer than older antlers. 
+
+##What are they?
 Antlers are extensions of the skull grown by members of the deer family. They are true bone structures that are usually symmetrical.
 
-#Deer
+##Deer
 Family: Cervidae 

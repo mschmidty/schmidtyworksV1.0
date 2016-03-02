@@ -56,18 +56,21 @@
 $black:#111111;
 $l-black:#333333;
 $code:#b9bdb6;
-$light-grey:#ccc;
+$light-grey:#EBEBEB;
 $grey:#333333;
 $white:#ffffff;
-$green:rgba(95, 176, 68, 1);
+$green:#53812D;
 $light-green:rgba(158, 211, 140, 1);
 $silver:#dddddd;
-$blue:#0074D9;
+$blue:#2862C9;
+$l-blue:#2E71E8;
 $red:#FF530D;
 $orange:#FFA860;
+$orange-red:#A14426;
 
 
-$link:$green;
+$link:$blue;
+$link-hover:$green;
 
 body > svg {
   display:none;

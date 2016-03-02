@@ -1,5 +1,3 @@
-@import url(http://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic);
-@import url(https://fonts.googleapis.com/css?family=Raleway:400,700,300);
 *, *:before, *:after {
   box-sizing: border-box; }
 
@@ -354,11 +352,21 @@ svg {
   background: #dddddd; }
 
 .light-grey {
-  background: #ccc; }
+  background: #EBEBEB; }
 
 @font-face {
-  font-family: 'g_bookletter';
-  src: url('font/g_bookletter.eot?') format('eot'), url('font/g_bookletter.woff') format('woff'), url('font/g_bookletter.ttf') format('truetype'); }
+  font-family: 'unica_oneregular';
+  src: url('font/unicaone/unicaone-webfont.eot');
+  src: url('font/unicaone/unicaone-webfont.eot?#iefix') format('embedded-opentype'), url('font/unicaone/unicaone-webfont.woff2') format('woff2'), url('font/unicaone/unicaone-webfont.woff') format('woff'), url('font/unicaone/unicaone-webfont.ttf') format('truetype'), url('font/unicaone/unicaone-webfont.svg#unica_oneregular') format('svg');
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'droid serif';
+  src: url('font/droidserif/droidserif-webfont.eot');
+  src: url('font/droidserif/droidserif-webfont.eot?#iefix') format('embedded-opentype'), url('font/droidserif/droidserif-webfont.woff2') format('woff2'), url('font/droidserif/droidserif-webfont.woff') format('woff'), url('font/droidserif/droidserif-webfont.ttf') format('truetype'), url('font/droidserif/droidserif-webfont.svg#droidserif-webfont') format('svg');
+  font-weight: normal;
+  font-style: normal; }
 
 @font-face {
   font-family: 'statefaceregular';
@@ -371,7 +379,7 @@ svg {
   font-family: statefaceregular; }
 
 body {
-  font-family: 'g_bookletter', Georgia, Times, "Times New Roman", serif;
+  font-family: 'unica_oneregular', sans-serif;
   font-weight: 300;
   color: #333333; }
 
@@ -385,7 +393,8 @@ h2 {
           transition: font-size 0.4s ease;
   text-transform: uppercase;
   margin: 1em 0 0.2em 0;
-  text-align: left; }
+  text-align: left;
+  color: #A14426; }
 
 h3 {
   font-size: 1.8em;
@@ -396,7 +405,7 @@ h4 {
   margin: 0; }
 
 p {
-  font-family: 'Droid Serif', serif;
+  font-family: 'droid serif', serif;
   font-size: 1.15em;
   margin-bottom: 1em;
   line-height: 1.8em;
@@ -405,18 +414,18 @@ p {
 .module p, .module li {
   text-align: left; }
   .module p a, .module li a {
-    color: #5fb044;
+    color: #2862C9;
     font-size: 1.1em;
     text-decoration: none; }
   .module p a:hover, .module li a:hover {
-    color: #FF530D; }
+    color: #53812D; }
 .module h1 {
   font-size: 4em; }
   .module h1 a {
     color: #111111;
     text-decoration: none; }
 .module li {
-  font-family: 'Droid Serif', serif;
+  font-family: 'droid serif', serif;
   font-size: 1em;
   line-height: 1.5em; }
 
@@ -626,7 +635,7 @@ nav {
       font-size: 1.2rem;
       padding: 1em; }
     nav li:hover {
-      background-color: #ccc; }
+      background-color: #EBEBEB; }
   .logo {
     margin-left: 50px; }
   .logo-text {
@@ -747,7 +756,7 @@ article {
     margin: .8em auto; }
   .module h2 a {
     text-decoration: none;
-    color: #5fb044; }
+    color: #2862C9; }
   .module p {
     display: block;
     margin: 1.2em auto; }
@@ -766,8 +775,8 @@ article {
 
 .quote {
   width: 85%;
-  background-color: #dddddd;
-  border-left: 7px solid #0074D9;
+  background-color: #EBEBEB;
+  border-left: 7px solid #2E71E8;
   font-style: italic;
   padding: 1em; }
 
@@ -859,7 +868,7 @@ article {
   font-style: italic; }
 
 .articles-thumb {
-  border-bottom: 2px solid #ccc; }
+  border-bottom: 2px solid #EBEBEB; }
   .articles-thumb:last-of-type {
     border: none; }
 
@@ -942,7 +951,7 @@ footer {
     -webkit-transition: color 0.5s ease;
             transition: color 0.5s ease; }
   footer a:hover {
-    color: #5fb044; }
+    color: #53812D; }
 
 .social-icons svg {
   fill: #333333;

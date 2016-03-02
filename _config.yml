@@ -8,7 +8,8 @@ url:   # the base hostname & protocol for your site
 # Build settings
 markdown: kramdown
 collections:
-  - notes
+  notes:
+    output: true
 exclude: [
 	.git,
 	.gitignore,
