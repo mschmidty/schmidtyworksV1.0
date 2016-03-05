@@ -1,4 +1,6 @@
-
+.gitignore
+css
+src
 
 node_modules
 sass-cache
