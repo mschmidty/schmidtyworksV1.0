@@ -26,7 +26,9 @@ To make things even worse, the government has been mired with [security issues][
 
 ##Change Faster
 
-So how do we change this? How do we get the government to change faster? And should the government change faster? 
+So how do we change this? How do we get the government to change faster? And should the government change faster? Even more importantly, should a workforce that is already strapped for time even be taking the time to think about these things? 
+
+Making technological advancements typically brings two things, a change in productivity (too much technological tinkering can decrease productivity), and and increase in information sharing.  
 
 [fedramp]:		http://ben.balter.com/2014/07/29/fedramp/
 
