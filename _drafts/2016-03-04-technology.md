@@ -28,7 +28,19 @@ To make things even worse, the government has been mired with [security issues][
 
 So how do we change this? How do we get the government to change faster? And should the government change faster? Even more importantly, should a workforce that is already strapped for time even be taking the time to think about these things? 
 
-Making technological advancements typically brings two things, a change in productivity (too much technological tinkering can decrease productivity), and and increase in information sharing.  
+Making technological advancements brings two things, a change in productivity and and increase in information sharing. I'll admit, too much technological tinkering can decrease productivity.  However, increases in productivity, in my experience only come after having time to vet and explore a variety of technologies.  And that can take some time. I've been prone to experiment to death, at a cost to productivity.  But now I know about so many really cool tools that I use everyday, that make me a more productive employee.  (Like [Evernote][evernote]).  And the gov is huge, think of 2.7 million people testing new tech all of the time.  
+
+To give you an idea of how this might work, look at web technologies. People are constantly creating new things and leaving old stuff behind.  The web is a little bit of a mess, but ultimately, you have advancements in the web happening really fast. Which is what we want, right?  Rapid advancement.  Open source software is also a great example.  So many great open source programs come out everyday that most people don't even know about.  Over time the really good ones come to the top and become known by the [general public][mozilla] while the rest are forgotten and never used again. That's what the government needs.  The ability to try a bunch of different technology, get rid of the bad stuff over time and gradually find what works best for it.  
+
+Currently the opposite is happening.  You can only try very few programs that are tightly controlled by the gov, and are mostly out of date. When you want to try something new, approvals have to happen by someone who has no idea what you do.  We end up getting stuck using really antiquated systems that don't work very well. 
+
+I'd hope that if we were more open to trying new tech we would solve the problem of how the gov shares information.  It boggles my mind how often I open my email to find a one sentence note with a single link that has been forwarded 10+ times.  Not only is this a waste of email space and employee time, but Twitter solved this  problem a long time ago. Tweets are limited in length (man I wish that our emails were limited in length) and they are great for linking.  Ninety nine percent of my email traffic would be eliminated if we used twitter efficiently.  If we eliminated wasteful email, the more important information would get through. I am by no means the only one advocating for the end of email.  Other people [have been saying this for a long time][email]. Other information improvements I would make are  I would Instead emailing Memos (the public ones) through email they could have a dedicated Facebook page, or twitter feed, or even maybe a website.  Instead, we get weekly emails that most employees ignore. 
+
+The government is hesitant to use unofficial Twitter accounts or Facebook (they even once recommended we delete our social media accounts for protection) because they are afraid of someone saying something that will damage the image of the government.  And that's understandable.   Ultimately though, what we write as government employees [eventually gets out anyways][mms].  All government correspondence is subject to [Freedom of Information Act][FOIA] requests. So why are we so protective of the information that we could be sharing? Wouldn't it be better if actions of bad employees were public anyways?  Is the gov trying to hide a bade employee problem? In my experience NO.  So why not let them share. 
+
+##Where do we go from here?   
+I've been trying to get involved (it's hard) with people and arms of the gov who are trying to change this.  [18F][18F], [Ben Balter][Ben], [GitHub][github],[NASA][NASA], and the [USGS][USGS] all seem to be doing a fairly good job writing about and change
+
 
 [fedramp]:		http://ben.balter.com/2014/07/29/fedramp/
 
@@ -42,4 +54,23 @@ Making technological advancements typically brings two things, a change in produ
 
 [opmhack]:		https://en.wikipedia.org/wiki/Office_of_Personnel_Management_data_breach
 
+[evernote]:  	https://evernote.com/?var=3	
+
+[mms]:			https://en.wikipedia.org/wiki/Minerals_Management_Service#Criticism_and_controversies
+
+[FOIA]:			https://en.wikipedia.org/wiki/Freedom_of_Information_Act_(United_States)
+
+[mozilla]:		http://www.cio.com/article/2980282/open-source-tools/7-top-open-source-projects-and-the-faces-behind-them.html#slide6
+
+[email]:		http://qz.com/359726/email-lets-other-people-schedule-your-life-heres-how-to-stop-it/	
+
+[USGS]:			http://www.usgs.gov/tech-transfer/
+
+[NASA]:			https://www.nasa.gov/topics/technology/index.html
+
+[Ben]:			http://ben.balter.com/
+
+[github]:		https://government.github.com/
+
+[18F]:			https://18f.gsa.gov/	
 
