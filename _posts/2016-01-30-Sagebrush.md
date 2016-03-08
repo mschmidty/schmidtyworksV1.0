@@ -2,7 +2,7 @@
 layout: post
 title:  "Big Sagebrush"
 date:   2016-01-30
-published:  true
+published:  false
 categories: blog 
 tags: Tech Note
 ---

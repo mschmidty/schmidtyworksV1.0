@@ -1,5 +1,5 @@
 
-$max-width-col-1: 700px;
+$max-width-col-1: 625px;
 
 .left {
   float:left;
@@ -106,6 +106,32 @@ article {
   }
 }
 
+.flex-container {
+  display:flex;
+}
+.flex-row {
+  flex-direction:row;
+}
+.justify-content-around {
+  justify-content:around;
+}
+.flex-items {
+  width:200px;
+  flex:auto;
+  img {
+    width:100%;
+  }
+}
+.flex-center {
+  align-items:center;
+}
+.width-215 {
+  width:30%;
+}
+.width-370 {
+  width:40%;
+}
+
 
 //Box Shadow Effect Added to all Pictures 
 //with <div class="img-box-shadow-effect"></div>
@@ -138,8 +164,11 @@ article {
 }
 
 
+
 @import '_content-posts';
 @import '_content-additions';
 @import '_content-articles';
 @import '_content-about';
 @import '_content-walkabouts';
+@import '_content_portfolio';
+

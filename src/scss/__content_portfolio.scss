@@ -1,0 +1,16 @@
+.portfolio {
+  .print {
+    img {
+      box-shadow:1px 1px 2px 1px rgba(0,0,0,0.4);
+    }
+  }
+  .flex-items {
+    padding:1em;
+    &:first-of-type {
+      padding:1em 1em 1em 0;
+    }
+    &:last-of-type {
+      padding:1em 0 1em 1em;
+    }
+  }
+}

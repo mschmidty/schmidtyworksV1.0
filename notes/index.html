@@ -10,7 +10,7 @@ layout: default
   {% for note in site.notes %}
     <div class="articles-thumb">
       <h2><a href="{{ note.url }}">{{ note.title }}</a></h2>
-      {{ note.excerpt }}
+      <p>{{ note.excerpt }}</p>
     </div>
   {% endfor %}
 

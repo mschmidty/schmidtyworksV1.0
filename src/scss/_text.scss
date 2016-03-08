@@ -11,12 +11,12 @@
 }
 @font-face {
     font-family: 'droid serif';
-    src: url('font/droidserif/droidserif-webfont.eot');
-    src: url('font/droidserif/droidserif-webfont.eot?#iefix') format('embedded-opentype'),
-         url('font/droidserif/droidserif-webfont.woff2') format('woff2'),
-         url('font/droidserif/droidserif-webfont.woff') format('woff'),
-         url('font/droidserif/droidserif-webfont.ttf') format('truetype'),
-         url('font/droidserif/droidserif-webfont.svg#droidserif-webfont') format('svg');
+    src: url('font/droid_serif/droidserif-webfont.eot');
+    src: url('font/droid_serif/droidserif-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/droid_serif/droidserif-webfont.woff2') format('woff2'),
+         url('font/droid_serif/droidserif-webfont.woff') format('woff'),
+         url('font/droid_serif/droidserif-webfont.ttf') format('truetype'),
+         url('font/droid_serif/droidserif-webfont.svg#droidserif-webfont') format('svg');
     font-weight: normal;
     font-style: normal;
 
@@ -71,9 +71,9 @@ h4 {
 
 p {
 	font-family: $b-font;
-	font-size:1.15em;
+	font-size:1.1em;
 	margin-bottom:1em;
-	line-height:1.8em;
+	line-height:1.7em;
   color:$l-black;
 }
 
