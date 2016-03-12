@@ -86,7 +86,7 @@ gulp.task('watch', function() {
     gulp.watch('src/scss/*.scss', ['styles']);
     gulp.watch('src/images/**/*', ['images']);
     gulp.watch('src/scripts/*.js', ['scripts']);
-    gulp.watch(['*.html', '_layouts/*.html', '_includes/*.html', '_posts/*', '_config.yml'], ['jekyll-rebuild']);
+    gulp.watch(['*.html', '_layouts/*.html', '_includes/*.html', '_posts/*', '_notes/*', '_config.yml'], ['jekyll-rebuild']);
 
 
     // Watch tasks go inside inside server.listen()
