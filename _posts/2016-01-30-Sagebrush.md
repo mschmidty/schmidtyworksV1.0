@@ -4,7 +4,7 @@ title:  "Big Sagebrush"
 date:   2016-01-30
 published:  false
 categories: blog 
-tags: Tech Note
+tags: Tech-Note
 ---
 
 I had to do some research on big sagebrush (*Artemisia tridentata*) subspecies for a project that I am working on.  Here's a little key to the important subspecies. 

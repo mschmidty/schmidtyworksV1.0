@@ -199,6 +199,7 @@ More resources: [How to Package on Youtube][youtube packages]
 * [Video on how to use microsoft data in R][microsoftr]
 * [Stats for Biologists with R][rbiostats]
 * [How to get sublime text working with R][sublimer]
+* [Visualization of GPS collar data with R][GPS R]
 
 
 
@@ -234,5 +235,7 @@ More resources: [How to Package on Youtube][youtube packages]
 [rSPACE]: https://cran.r-project.org/web/packages/rSPACE/index.html
 
 [youtube packages]: https://www.youtube.com/watch?v=3RWb5U3X-T8&list=PLqzoL9-eJTNBDdKgJgJzaQcY6OXmsXAHU&index=11
+
+[GPS R]: http://pages.uoregon.edu/megen/rateOfMovement/rateOfMovementOverlay_slides.pdf 
 
 
