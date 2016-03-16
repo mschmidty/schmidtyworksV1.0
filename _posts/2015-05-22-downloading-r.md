@@ -168,6 +168,57 @@ and press cntrl+shift+j and your code should compile in the window running R.
 
 Now you're ready to use or learn R in a very nice working environment. 
 
+##Getting Sublime Working on Windows
+
+Add package [SublimeREPL][sREPL] with the sublime package manager.  Then open *Preferences>Browse Packages>*. Then browse *SublimeREPL>config>R* and *open Main.sublime-menu*. 
+
+~~~
+
+[
+     {
+        "id": "tools",
+        "children":
+        [{
+            "caption": "SublimeREPL",
+            "mnemonic": "R",
+            "id": "SublimeREPL",
+            "children":
+            [
+                {"command": "repl_open",
+                 "caption": "R",
+                 "id": "repl_r",
+                 "mnemonic": "R",
+                 "args": {
+                    "type": "subprocess",
+                    "external_id": "r",
+                    "additional_scopes": ["tex.latex.knitr"],
+                    "encoding": {
+                        "windows": "$win_cmd_encoding",
+                        "linux": "utf8",
+                        "osx": "utf8"
+                        },
+                    "soft_quit": "\nquit(save=\"no\")\n",
+                    "cmd": {"windows": ["C:/EDIT/THIS/TO/R/R-3.2.0/bin/x64/Rterm.exe", "--ess", "--encoding=$win_cmd_encoding"]},
+                    "cwd": "$file_path",
+                    "extend_env": {"windows": {"PATH": "{PATH}:/C/EDIT/THIS/TO/R/R-3.2.0/bin"}},
+                    "cmd_postfix": "\n",
+                    "suppress_echo": {"osx": true,
+                                      "linux": true,
+                                      "windows": false},
+                    "syntax": "Packages/R/R Console.tmLanguage"
+                    }
+                }
+            ]
+        }]
+    }
+]
+~~~
+{: .language-JSON}
+
+Edit both: ' "extend_env": {"windows": {"PATH": "{PATH}:/C/EDIT/THIS/TO/R/R-3.2.0/bin"}}'  and  ' "cmd": {"windows": ["C:/EDIT/THIS/TO/R/R-3.2.0/bin/x64/Rterm.exe", "--ess", "--encoding=$win_cmd_encoding"]}, ' So that the /EDIT/THIS/TO section goes to wherever the files in R are being stored. 
+
+Then you should be able to go to *Tools>SublimeREPL>R* and a separate window should start that will run your R scripts.   To run code highlight R code you want to run (That should be in a separate R file) and press cntrl+shift+j.  The codes should run in the R window. For other ways to run code chekc out [this][Kevin Johnson] post. 
+
 ##Downloading and using Packages
 
 R takes advantage of packages to increase its flexibility. The packages are created by people to do specific things. For example let's say I want to download a package that can do a power analysis for spacial information.  I search google and find that the [rSPACE][rSPACE] program does that.  I open up the command line and type:
@@ -237,5 +288,7 @@ More resources: [How to Package on Youtube][youtube packages]
 [youtube packages]: https://www.youtube.com/watch?v=3RWb5U3X-T8&list=PLqzoL9-eJTNBDdKgJgJzaQcY6OXmsXAHU&index=11
 
 [GPS R]: http://pages.uoregon.edu/megen/rateOfMovement/rateOfMovementOverlay_slides.pdf 
+
+[Kevin Johnson]:	http://www.kevjohnson.org/using-r-in-sublime-text-3/
 
 
