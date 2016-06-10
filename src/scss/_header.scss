@@ -10,7 +10,12 @@
 }
 
 header {
-  //border-bottom:3px solid $light-grey;
+  box-shadow: 0px 3px 3px 0px rgba(0,0,0,0.5);
+  background:$green;
+  padding:.67em 0;
+  h1 {
+    margin:0;
+  }
 }
 .logo {
   float:left;
@@ -67,7 +72,7 @@ nav {
   	}
   }
   nav {
-    top:30px;
+    top:36px;
   }
 }
 
@@ -114,7 +119,7 @@ nav {
   .menu-icon{  
     display:block;
     position:absolute;
-    top:25px;
+    top:32px;
     left:10px;
     width:35px;
     height:32px;
