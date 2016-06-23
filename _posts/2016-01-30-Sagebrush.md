@@ -110,7 +110,7 @@ Precipitation
 [USDA Plants Database - Mountain Big Sagebrush][Mountain USDA]
 
 
-##Mountain Big Sagebrush
+##Basin Big Sagebrush
 
 *Artemesia tridentata tridentata*
 
