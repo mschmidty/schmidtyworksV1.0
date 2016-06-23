@@ -2,7 +2,7 @@
 layout: post
 title:  "Golden Eagle"
 date:   2016-03-19
-published:  true
+published:  false
 categories: blog 
 tags: Tech-Note aves
 author: Mike Schmidt
