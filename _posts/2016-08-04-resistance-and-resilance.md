@@ -7,7 +7,7 @@ tags: science sage-grouse
 published: true
 ---
 
-I've spent the last several days looking at a habitat improvement project in Gunnison sage-grouse unoccupied critical habitat where we are considering using fire to decrease oak and pinyon-juniper densities in sagebrush.  As with any project that involves sage-grouse habitat, invasive weeds were a concern - particularly cheatgrass. I found Chambers et al. ([2014][chambers]) publication extremely helpful when determining if project areas had natural resistance to invasion of invasive weeds and resilience to disturbance.  It was important to us that, although fire was the most economical way to treat areas, that habitat was ultimately improved. 
+I've spent the last several days looking at a habitat improvement project in Gunnison sage-grouse unoccupied critical habitat. We are considering using fire to decrease oak and pinyon-juniper densities in sagebrush.  As with any project that involves sage-grouse habitat, invasive weeds were a concern - particularly cheatgrass. I found Chambers et al. ([2014][chambers]) publication extremely helpful when determining if project areas had natural resistance to invasion of invasive weeds and resilience to disturbance.  It was important to us that, although fire was the most economical way to treat areas, that habitat was ultimately improved.   
 
 ##Definitions
 (Definitions: [Sage-grouse Initiative][sgi1]).
@@ -22,9 +22,9 @@ I've spent the last several days looking at a habitat improvement project in Gun
 
 ##The Take Away
 
-In general the higher/colder and wetter the environment the greater resistance and resilience plant ecosystems have after a disturbance.  This basically means that environments that have greater levels of precipitation at higher elevations will be able to recover following disturbance and are less susceptible to invasion by non-native species. On the other hand, habitats, such as the great basin, have a  chance of never recovering after a fire because of how little precipitation falls on much of the state and how warm it is on average in many parts. While other areas, in Montana or North Dakato, where it is wetter, have a better chance of maintaining a native population following a disturbance. 
+In general the higher/colder and wetter the environment the greater resistance and resilience plant ecosystems have after a disturbance.  In other words, environments that have greater levels of precipitation, that occur at higher elevations will be able to recover following disturbance and are less susceptible to invasion by non-native species. On the other hand, habitats, such as the great basin, have a greater chance of not recovering or being dominated by non-native species after disturbnace because of how little precipitation falls on much of the state and how warm it is. While other areas - in Montana or North Dakato for instance - where it is wetter, have a better chance of recovering and maintaining a native population following disturbance. 
 
-##Potential for rapid assessment
+##How to determine your areas R and R
 
 These principles are made even more powerful by the fact that they can be rapidly applied using [NRCS soils data][SSURGO].  With some crafty GIS work you can separate the GIS layers the [NRCS][SSURGO] provide into different soil types depending on their temperature and moisture content. This is really useful when looking at landscape level projects to determine what treatments are appropriate.  In areas with low R and R, you should carefully consider if fire is appropriate.   Conversely, in areas of high R and R, fire may be an appropriate tool.
 

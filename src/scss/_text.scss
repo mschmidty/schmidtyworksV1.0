@@ -77,6 +77,11 @@ p {
   color:$l-black;
 }
 
+p>strong {
+  font-size:1.15em;
+  font-weight:bold;
+}
+
 .module {
   p, li {
     text-align:left;
