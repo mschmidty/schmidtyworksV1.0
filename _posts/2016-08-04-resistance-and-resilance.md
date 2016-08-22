@@ -7,7 +7,7 @@ tags: science sage-grouse
 published: true
 ---
 
-I've spent the last several days looking at a habitat improvement project in Gunnison sage-grouse unoccupied critical habitat. We are considering using fire to decrease oak and pinyon-juniper densities in sagebrush.  As with any project that involves sage-grouse habitat, invasive weeds were a concern - particularly cheatgrass. I found Chambers et al. ([2014][chambers]) publication extremely helpful when determining if project areas had natural resistance to invasion of invasive weeds and resilience to disturbance.  It was important to us that, although fire was the most economical way to treat areas, that habitat was ultimately improved.   
+I've spent the last several days looking at a habitat improvement project in Gunnison sage-grouse unoccupied critical habitat. We are considering using fire to decrease oak and pinyon-juniper densities in sagebrush.  As with any project that involves sage-grouse habitat, invasive weeds were a concern - particularly cheatgrass. I found Chambers et al. ([2014][chambers]) publication extremely helpful when determining if our project area had natural resistance to invasion of invasive weeds and resilience to disturbance.  It was important to us that, although fire was the most economical way to treat areas, that habitat was ultimately improved and that we properly vetted our sites to determine if they would respond positively to fire.   
 
 ##Definitions
 (Definitions: [Sage-grouse Initiative][sgi1]).
