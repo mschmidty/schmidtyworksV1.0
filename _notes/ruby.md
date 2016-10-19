@@ -13,7 +13,7 @@ Go to folder that you want your ruby app in and:
 
 ~~~
 
-rails new app name -d mysql
+rails new app_name -d mysql
 ~~~
 {: .language-bash}
 
@@ -44,11 +44,20 @@ sudo ln -s /Applications/MAMP/tmp/mysql/mysql.sock /tmp/mysql.sock
 ~~~
 {: .language-bash}
 
+
 And then run the following in the command line. 
 
 ~~~
 
 rake db:create
+~~~
+{: .language-bash}
+
+Then try:
+
+~~~
+
+rails server
 ~~~
 {: .language-bash}
 
