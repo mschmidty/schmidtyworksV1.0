@@ -2,7 +2,8 @@
 layout: post
 title:  "The Federal Hiring System"
 date:   2014-10-01
-categories: blog hiring feds USAjobs
+categories: blog 
+tags: hiring feds USAjobs
 ---
 
 I just applied for a new job with the federal government.  One week after applying for the position I was notified that I was "not referred" to the selecting officials for the position that I applied for with no justification. Fast forward two days later, for the same job, and after several phone calls and emails to human resources, I was referred to the hiring officials as one of the top candidates for the position.  

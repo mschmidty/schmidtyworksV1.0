@@ -1,3 +1,4 @@
+
 $max-width-col-1: 700px;
 
 .left {
@@ -70,8 +71,8 @@ article {
 
 .quote {
   width:85%;
-  background-color:$silver;
-  border-left:7px solid $blue;
+  background-color:$light-grey;
+  border-left:7px solid $l-blue;
   font-style:italic;
   padding:1em;
 }
@@ -105,6 +106,32 @@ article {
   }
 }
 
+.flex-container {
+  display:flex;
+}
+.flex-row {
+  flex-direction:row;
+}
+.justify-content-around {
+  justify-content:around;
+}
+.flex-items {
+  width:200px;
+  flex:auto;
+  img {
+    width:100%;
+  }
+}
+.flex-center {
+  align-items:center;
+}
+.width-215 {
+  width:30%;
+}
+.width-370 {
+  width:40%;
+}
+
 
 //Box Shadow Effect Added to all Pictures 
 //with <div class="img-box-shadow-effect"></div>
@@ -132,9 +159,16 @@ article {
   left:auto;
   transform:skew(8deg) rotate(3deg);
 }
+.reference {
+  font-size:.8em;
+}
+
 
 
 @import '_content-posts';
 @import '_content-additions';
 @import '_content-articles';
 @import '_content-about';
+@import '_content-walkabouts';
+@import '_content_portfolio';
+

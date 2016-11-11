@@ -1,0 +1,17 @@
+---
+layout: default
+---
+
+<div class="module col-1">
+<h1>Notes</h1>
+
+
+
+  {% for note in site.notes %}
+    <div class="articles-thumb">
+      <h2><a href="{{ note.url }}">{{ note.title }}</a></h2>
+      <p>{{ note.excerpt }}</p>
+    </div>
+  {% endfor %}
+
+</div>

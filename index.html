@@ -4,9 +4,29 @@ layout: default
 
   <div class="blog-index">
     <article class="module col-1">
-    {% assign post = site.posts.first %}
-    {% assign content = post.content %}
-    {% include custom/home_post.html %}
-    <h4 class="left margin-main"><a href="{{"articles" | prepend:site.baseurl}}">More Articles >></a></h4>
+
+      <!-- This loops through the paginated posts -->
+      {% for post in paginator.posts %}
+        <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>        
+         <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>        
+        <div class="content">
+          {{ post.content }}
+        </div>
+      {% endfor %}
+
     </article>
+    <!-- Pagination links -->
+    <div class="pagination">
+      {% if paginator.previous_page %}
+        <a href="{{ paginator.previous_page_path }}" class="previous">Previous</a>
+      {% else %}
+        <span class="previous">Previous</span>
+      {% endif %}
+      <span class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
+      {% if paginator.next_page %}
+        <a href="{{ paginator.next_page_path }}" class="next">Next</a>
+      {% else %}
+        <span class="next ">Next</span>
+      {% endif %}
+    </div>
   </div>

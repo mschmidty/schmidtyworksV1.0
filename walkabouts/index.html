@@ -1,0 +1,118 @@
+---
+layout: default
+---
+<div class="module walkabouts">
+
+  <h1 class="entry-title">Schmidt's Walkabouts How To</h1>
+
+  <h3>Table of Contents</h3>
+  <ol>
+    <li><a href="#intro">Intro</a></li>
+    <li><a href="#quick-info">Quick Info</a></li>
+    <li><a href="#the-basics">The Basics</a></li>
+    <li><a href="#access-backend">Backend Access</a></li>
+    <li><a href="#add-blog-post">Add Blog Post</a></li>
+    <li><a href="#adding-photos">Phography Page</a></li>
+    <li><a href="#about-page">About Page</a></li>
+  </ol>
+
+  <h3 id="indro">Intro</h3>
+  <p>Here is a "how to" for you on how to add information to your website: <a href="http://schmidtswalkabouts.com">schmidtswalkabouts.com</a>. I still have some stuff to do, but it is pretty functional. I also need to port over more of your old blog posts, but that might take a bit, you've written a lot.</p>
+  <p>It also might be a good idea once you have gotten things up and running on this site to put up a link on your old site to this one. </p>
+
+  <h3 id="quick-info">Quick Info</h3>
+
+  <p><b>URL:</b> <a href="http://schmidtswalkabouts.com">schmidtswalkabouts.com</a></p>
+
+  <p><b>Backend:</b> <a href="http://schmidtswalkabouts.com/wp-admin">http://schmidtswalkabouts.com/wp-admin</a></p>
+
+  <p><b>How To:</b> <a href="http://schmidtyworks.com/walkabouts">http://schmidtyworks.com/walkabouts</a></p>
+
+  <h3 id="the-basics">The Basics</h3>
+  <p>Your site has 4 pages: Home, Blog, Photography and About.  Here's a brief description of each:</p>
+
+  <h4>Home</h4>
+  <p>The home pages queries your most recent blog posts and most recent photo that you have uploaded. <b>The home page is auto populating. </b></p>
+
+  <h4>Blog</h4>
+  <p>The blog page queries the most recent blog posts and puts them in order from the most recently published.  Only 10 blog posts appear per page with older posts accessed by clicking older posts (you don't have enough posts yet so this feature does not exist). The excerpt is automatically created by querying the first 55 words of a post. </p>
+
+  <p>When you click on "Read More" or on the image, you will be sent to a "single of that post" with older posts at the bottom. </p> 
+
+
+  <h4>Photography</h4>
+
+  <p>The Photography page queries all of the photos that you have uploaded.  When each picture is selected it takes you to another page where you can cycle through all of you photos. </p>
+
+  <p><b>Note:</b> This is a section that I would greatly like to improve upon. Hopefully there will be a pop up eventually that will let you cycle through the images without leaving the page.</p>
+
+  <h4>About</h4>
+  <p>A page with information about you on it. Each "About" post you create will add another section to the about page.</p>
+
+
+  <h3 id="access-backend">Backend Access</h3>
+
+  <p>Your website is built on wordpress. How do you add information to your site?  Go to: <a href="http://schmidtswalkabouts.com/wp-admin">http://schmidtswalkabouts.com/wp-admin</a> and enter your name and password which I will send you. </p>
+
+  <h3 id="add-blog-post">Add Blog Post</h3>
+
+  <p>Blog posts are pretty self explanatory.  Wordpress is fairly intuitive.  To add a blog post:</p>
+
+  <ol>
+    <li>Log into the back end of your website @ <a href="http://schmidtswalkabouts.com/wp-admin">http://schmidtswalkabouts.com/wp-admin</a></li>
+    <li>Click on: <img class="walkabouts-post-img" src="{{"images/walkabouts/posts.png" | prepend:site.baseurl}}" ></li>
+    <li>Then Click on "add new" at the top: <img class="walkabouts-post-img" src="{{"images/walkabouts/add-new.png" | prepend:site.baseurl}}" ></li>
+  </ol>
+
+  <p>A new post will appear and look like this: </p>
+
+  <img src="{{"images/walkabouts/new-post.png" | prepend:site.baseurl}}">
+
+  <h3 class="red">WARNING: Every Post Must Have a Featured Image. </h3>
+
+  <p>The featured image is required for the display on both the home page and the blog page. To set a feature image scroll down on any post and look for a section like this: 
+  </p>
+
+   <img class="featured-image" src="{{"images/walkabouts/featured-image.png" | prepend:site.baseurl}}">
+
+  <p>Select "Set Feature Image" and upload and select whatever you want to set as the feature image. </p>
+
+  <h3 id="adding-photos">Photography Page</h3>
+
+  To add a photo: 
+  <ol>
+    <li>Select: <img class="walkabouts-post-image" src="{{"images/walkabouts/photography.png" | prepend:site.baseurl}}"> from the left side of the backend. </li>
+    <li>At the top select: <img class="walkabouts-post-image" src="{{"images/walkabouts/new.png" | prepend:site.baseurl}}"> </li>
+    <li>Follow the instructions:</li>
+  </ol>
+
+  <img src="{{"images/walkabouts/add-photo.png" | prepend:site.baseurl}}">
+
+  
+  <ol start="4">
+    <li>Upload the highest quality image that you can, that isn't larger than 4mb or 2000px in width.</li>
+    <li>Select: <img src="{{"images/walkabouts/publish.png" | prepend:site.baseurl}}"> whean you are done.</li>
+  </ol>
+
+  <h3 id="about-page">About Page</h3>
+
+  <p>I have not put anything in your about page yet, but I thought that it would be good to have. I can get rid of it if you wish. </p>
+
+  <ol>
+    <li>Select: <img src="{{"images/walkabouts/about.png" | prepend:site.baseurl}}"> to get to the about publishing page. </li>
+    <li>At the top select: <img class="walkabouts-post-image" src="{{"images/walkabouts/new.png" | prepend:site.baseurl}}"> </li>
+  </ol>
+
+  <img src="{{"images/walkabouts/about-publish-page.png" | prepend:site.baseurl}}">
+
+  <ol start="3">
+    <li>Each one of these that you fill out will add a new section to the about page (see below).</li>
+  </ol>
+  <div class="img-box-shadow-effect">
+    <img src="{{"images/walkabouts/about-page-example.png" | prepend:site.baseurl}}">
+  </div>
+
+  <h3>If you have any quesitons...</h3>
+  <p>Give me a ring.</p>
+
+</div>

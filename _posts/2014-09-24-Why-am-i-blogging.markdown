@@ -2,7 +2,8 @@
 layout: post
 title:  "Why am I Blogging?"
 date:   2014-09-24
-categories: blog science
+categories: blog 
+tags: science
 ---
 
 This is my first blog post on [schmidtyworks.com][schmidtyworks].  That being the case, I wanted to make some goals for this site and layout why I've decided to put my hat in the blogging ring. First a little bit of background.

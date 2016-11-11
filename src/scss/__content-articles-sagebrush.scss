@@ -1,0 +1,25 @@
+.sagebrush-states {
+  .stateface {
+    font-size:4em;
+    position:relative;
+    line-height:.8em;
+  }
+}
+.elevation-list {
+  margin:0;
+}
+.elevation-list li{
+  display:flex;
+  flex-direction:row;
+  justify-content:flex-start;
+  span {
+    max-width:0;
+  }
+    p {
+    display:block;
+    flex:auto;
+    text-align:left;
+    margin:0;
+    padding:0;
+  }
+}

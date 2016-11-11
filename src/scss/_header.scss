@@ -10,17 +10,24 @@
 }
 
 header {
-  //border-bottom:3px solid $light-grey;
+  box-shadow: 0px 3px 3px 0px rgba(0,0,0,0.5);
+  background:$grey;
+  padding:.67em 0;
+  h1 {
+    margin:0;
+    color:$white;
+  }
 }
 .logo {
   float:left;
-  width:100px;
+  width:60px;
   top:0;
   height:auto;
   margin:0 1rem;
   svg {
-  	height:110px;
+  	height:97px;
   	width:100%;
+    fill:$light-green;
   }
 }
 .logo-text, .logo-text-small {
@@ -48,6 +55,7 @@ nav {
     color:#333;
     font-weight:700;
     display:block;
+    color:$white;
   }
 }
 .menu-icon, .nav-header {
@@ -55,19 +63,14 @@ nav {
 }
 
 @media all and(max-width:950px) {
-  .logo {
-  	width:70px;
-  	svg {
-  	  height:100px;
-  	}
-  }
   header {
   	h1 {
   		font-size:2.2em;
+      word-wrap:break-word;
   	}
   }
   nav {
-    top:30px;
+    top:36px;
   }
 }
 
@@ -100,6 +103,7 @@ nav {
     a {
       font-size:1.2rem;
       padding:1em;
+      color:$l-black;
     }
     li:hover {
       background-color:$light-grey;
@@ -111,23 +115,26 @@ nav {
   .logo-text {
     font-size:2rem;
   }
-  .menu-icon{  
+  .menu-icon{
     display:block;
     position:absolute;
-    top:25px;
+    top:32px;
     left:10px;
     width:35px;
     height:32px;
     svg {
     	height:32px;
+      fill: white;
     }
   }
-  
+
   .close-panel {
     position:absolute;
     padding:0 1em;
     z-index:10;
-
+  }
+  a.close-panel {
+    font-size:1.7em;
   }
   .nav-header {
     position:relative;
@@ -147,7 +154,7 @@ nav {
           margin:.25rem 0;
         }
     }
-  
+
   a.open-panel, a.close-panel, .nav-header {
     display: inline;
   }
@@ -163,7 +170,7 @@ nav {
     -o-transition: -o-transform 500ms ease;
     transition: transform 500ms ease;
   }
-  
+
   /* When the panel is closed, transition the page back to the left */
   #page {
     left: 0;
@@ -181,7 +188,7 @@ nav {
 
 @media all and(max-width:470px) {
   header {
-    
+
     .nav-header {
       h2 {
         font-size:1.2rem;
@@ -189,13 +196,11 @@ nav {
     }
   }
   .logo-text {
-    display:none;
-  	padding-top:1.65rem;
+  	text-align:center;
+    color:$light-green;
   }
   .logo {
-    float:none;
-    position:relative;
-    margin:0 auto;
+    display:none;
   }
   .logo svg {
     height:83px;
@@ -206,4 +211,3 @@ nav {
     }
   }
 }
-
