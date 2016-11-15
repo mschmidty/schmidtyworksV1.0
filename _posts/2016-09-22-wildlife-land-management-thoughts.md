@@ -4,6 +4,7 @@ title:  "Wildlife Land Management Thoughts"
 date:   2016-09-22
 categories: blog 
 tags: opinion
+published: false
 ---
 
 I've been working for two years now as a wildlife biologist.  In that time there have been too many days in front of the computer, too little time in the field, two very complicated Gunnison sage-grouse consultations and several controversial projects. Here's a few thoughts on the consultations. 

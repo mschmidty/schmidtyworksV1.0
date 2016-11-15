@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "Golden Eagle"
-date:   2016-03-19
-published:  false
+date:   2016-11-09
+published:  true
 categories: blog 
 tags: Tech-Note aves
 author: Mike Schmidt
@@ -29,7 +29,7 @@ I have a project that is coming up that could impact a golden eagle *(Aquila chr
 Can be found across the [Nearctic][Nearctic] and [Palearctic][Palearctic] and on the fringes of the [Indomalaya][Indomalaya] and the [Afrotropics][Afrotropics].  It is infrequent across its range. 
 
 ##Food
-Feeds on small prey most of the time. Is more of a predator than a scavenger (like the bald eagle). It eats prey up to the size of a fox or a large crane (known to take goats or small deer as well). A pair may hunt together. 
+Feeds on small prey most of the time and is more of a predator than a scavenger (like the bald eagle). It eats prey up to the size of a fox or a large crane (known to take goats or small deer as well). A pair may hunt together. 
 
 ###Habitat
 
@@ -47,7 +47,7 @@ The female stays with the young at first, while the male hunts. After the young 
 Young first fly 60-70 days after hatching. 
 
 ###Nests
-Nests are most often high, and well protected on a cliff face. Also, may nest in large trees or, rarely, on the ground. Typically nests sites are used repeatedly for many years.  Often, within a territory, there will be an alternate nest. Nests are constructed by both sexes with sticks and lined with weeds, grass, leaves, and moss. New material is added each year.  Nests can become quite large.
+Nests are most often high and well protected on a cliff face. Also, may nest in large trees or, rarely, on the ground. Typically nests sites are used repeatedly for many years.  Often, within a territory, there will be an alternate nest. Nests are constructed by both sexes with sticks and lined with weeds, grass, leaves, and moss. New material is added each year.  Nests can become quite large.
  
 ##Disturbance
 * Research suggests that golden eagles are senstive to human activity. Steidle et. al. (1993) found when observers were camped 400m (1300 ft or 1/4 mile) for 24 hours from golden eagle nests, adults spent less time near their nests, fed juveniles less frequently, and fed themselves and their juveniles up to 67% less food than when observers were camped 800m (2600 ft or 1/2 mile) away from nests for an equal period of time.
