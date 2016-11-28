@@ -8,7 +8,7 @@ tags: NEPA Public
 author: Mike Schmidt
 ---
 
-I had to respond to comments for a Environmental Assessment I was writing the other day.  Mid-response I realized I had no idea how to effectively repond to comments. So I decided to write up a short post to learn about it. After all, this is an important part of the NEPA project, particularly for projects that the public cares about. 
+I had to respond to comments for a Environmental Assessment (EA) I was writing the other day.  Mid-response I realized I had no idea how to effectively repond to comments. So I decided to write up a short post to catch up on the comment process. After all, this is an important part of the NEPA project, particularly for projects that the public cares about. 
 
 ##From the BLM NEPA handbook
 
@@ -42,8 +42,7 @@ Response to comments can result in several response types:
 
 If comments are substantive and if comments fit into necessary modifications 1-4 from above, you may respond in either the final EA or decision record by altering pertinent sections and listing these changes somewhere in the document. If comments do not warrant changes, document why you decided they do not warrant a change in a response somewhere in the EA or decision document. 
 
-
-
+Remember too that comments are the most useful way to keep the public involved with your project.  Public involvement can help you address public barriers early on in a project so that implementation goes smoothly. 
 
 
 
